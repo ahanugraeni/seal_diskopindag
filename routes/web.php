@@ -17,6 +17,15 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('home');
 });
+Route::get('/admin', function () {
+    return view('login.login-admin');
+});
+Route::get('/login', function () {
+    return view('login.login-user');
+});
+Route::get('/daftar', function () {
+    return view('login.registrasi-user');
+});
 
 Route::get('detail_event', function () {
     return view('detail_event');
