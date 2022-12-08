@@ -81,8 +81,8 @@
           <li class="nav-item">
         </ul>
         <div class="home-greetings__buttons">
-            <a class="btn btn-primary me-3" href="/profile">Masuk</a>
-            <a class="btn btn-outline-dark" target="_blank" href="https://malangkota.go.id/">Daftar</a>
+          <a class="btn btn-outline-primary me-4" target="_blank" href="https://malangkota.go.id/">DAFTAR</a>
+          <a class="btn btn-primary " href="/profile">LOGIN</a>
       </div>
       </li>
     </div>
