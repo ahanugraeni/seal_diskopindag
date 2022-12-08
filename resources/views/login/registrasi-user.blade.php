@@ -32,7 +32,7 @@
       <label for="exampleInputEmail1" class="form-label mb-2">Password</label>
       <input type="text" placeholder="Masukan password untuk akun anda" class="form-control mb-4" id="exampleInputEmail1" aria-describedby="emailHelp">
   <div class="button text-center pe-5">
-  <a href="upload foto"><button type="button"  class="btn btn-primary "> LANJUTKAN </button></a>
+  <a href="ktp"><button type="button"  class="btn btn-primary "> LANJUTKAN </button></a>
   </div>
 </form>
       </div>

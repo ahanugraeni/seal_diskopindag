@@ -26,6 +26,9 @@ Route::get('/login', function () {
 Route::get('/daftar', function () {
     return view('login.registrasi-user');
 });
+Route::get('/ktp', function () {
+    return view('login.upload');
+});
 
 Route::get('detail_event', function () {
     return view('detail_event');

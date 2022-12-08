@@ -27,6 +27,13 @@ body {
     width: 100px;
     font-size: 13px;
 }
+.button1 .btn {
+    background-color: #2552aa;
+    color: #ffffff;
+    height: 38px;
+    width: 120px;
+    font-size: 13px;
+}
 .form-control {
     border-color: #2552aa;
     height: 56px;
