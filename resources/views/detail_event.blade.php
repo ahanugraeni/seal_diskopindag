@@ -185,36 +185,43 @@
       </div>
 
     <!-- Footer -->
-    <footer style="background-color: #234D9F">
-    <footer class="container">
-      <table>
-            <td>
-            <h6 style="color:white; margin-left: 60px"> copyright </h6>
-            </td>
+    <footer class="footer" id="kontak">
+    <div class="container">
+        <div class="col-lg-5">
+            <p class="footer__desc">
+              Dinas Koperasi, Perindustrian dan Perdagangan merupakan lembaga bertipe A yang menyelenggarakan urusan pemerintahan bidang koperasi, bidang perindustrian, bidang usaha mikro, dan bidang perdagangan.
+            </p>
 
-            <td>
-            <ul  class=" text-center text-primary">
-              <p  style="color:white; margin-left: 500px" href=" ">| Beranda</p>
-              <p  style="color:white; margin-left: 500px"href=" ">| Layanan</p>
+            <ul class="footer__contact">
+              <li>
+                <i class="bx bx-map"></i>
+                <span>
+                Jl. Simpang Terusan Danau Sentani No.3 Malang 65138
+                </span>
+              </li>
+              <li>
+                <i class="bx bx-mail-send"></i>
+                <span>
+                diskopindag.kotamalang@gmail.com
+                </span>
+              </li>
+              <li>
+                <i class="bx bx-phone"></i>
+                <span>
+                (0341) 716546
+                </span>
+              </li>
             </ul>
-            </td>
-            
-            <td>
-            <ul  class=" text-right text-primary">
-              <p  style="color:white;"href=" ">| Beranda</p>
-              <p  style="color:white;"href=" ">| Layanan</p>
-            </ul>
-            </td>
-            
-            <td>
-            <ul  class=" text-right text-primary" >
-              <p  style="color:white;" href=" ">| Beranda</p>
-              <p  style="color:white;" href=" ">| Layanan</p>
-            </ul>
-            </td>
-      </table>
-    </footer>
-    <!-- End Footer -->
+
+            <p class="footer__copy">
+              copyright 2021 - Diskopindag Malang
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
+  <!-- End Footer -->
+    </div>
+    </footer>
   </body>
 </html>

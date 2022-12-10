@@ -33,3 +33,7 @@ Route::get('/ktp', function () {
 Route::get('detail_event', function () {
     return view('detail_event');
 });
+
+Route::get('dashboard', function () {
+    return view('admin.dashboard');
+});
