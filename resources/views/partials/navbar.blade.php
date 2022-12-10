@@ -51,7 +51,7 @@
             <a class="nav-link " href="https://diskopindag.malangkota.go.id/news">Berita</a>
           </li>
           <li class="nav-item pe-5">
-            <a class="nav-link" id="btn" href="">Kontak</a>
+            <a class="nav-link" id="btn" href="">Kontak</a> 
           </li>
         </ul>
         <!-- dropdown akun -->
