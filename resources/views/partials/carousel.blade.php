@@ -1,30 +1,83 @@
-<header class="header home" id="beranda">
-    <h1 class="text-center mb-5">EVENT TERBARU</h1>
-    <div class="container">    
-            <table>
-            <p>25 Desember 2022</p>
-            <td>
-            <h1 class="home-greetings__heading">
-              Cara Menggunakan Google Meet Untuk Rapat
-              <br>
-              <br>
-            </h1>
-            <div class="home-greetings__buttons">
-              <a class="btn btn-primary me-3" href="/profile">Daftar Event</a>
-              <a class="btn btn-outline-primary" target="_blank" href="/detail_event">Lihat Event</a>
-            </div>
-            </td>
-            <td>
-            <div class="gambar_event">
-            <img src="https://gmedia.net.id/upload/foto_artikel/20210705FkVktopple.jpg" alt="" style="width: 80%; height: 80%">
-            </div>
-        </td>
-        </table>
-      </div>
+<header class="header home p-5" id="beranda">
+    <div class="container mb-5">
+      <h1 class="event text-center p-5  ">Event Terbaru</h1>
     </div>
-    <div class="overlay__wave">
-        <svg viewBox="0 0 1440 135" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M1440 0.844691V135H0V0.844691C238.272 55.7142 478.272 83.1489 720 83.1489C961.728 83.1489 1201.73 55.7142 1440 0.844691Z" fill="white"></path>
-        </svg>
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
       </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <section id="slider">
+            <div class="container">
+              <div class="row justify-content-center fs-5">
+                <div class="col-md-5">
+                  <div class="row">
+                    <div class="slider text-primary">
+                      <p>
+                        <i class="bi bi-calendar-event"></i><span id="tanggalwaktu"></span>
+                      </p>
+                      <h1 class="home-greetings__heading text-primary">Cara Mengunakan Google Meet Untuk Rapat</h1>
+                      <div class="home-greetings__buttons mt-3">
+                        <a class="btn btn-primary me-3" href="/profile">Daftar</a>
+                        <a id="btn" class="nav-link" href="#kontak"><button type="button"
+                            class="btn btn-outline-primary">lihat Event</button></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-5">
+                  <img src="img/ktp.png" class="rounded mx-auto d-block" alt="1" width="800" />
+                </div>
+              </div>
+            </div>
+            </svg>
+          </section>
+        </div>
+        <div class="carousel-item">
+          <section id="slider">
+            <div class="container">
+              <div class="row justify-content-center fs-5">
+                <div class="col-md-5">
+                  <div class="row">
+                    <div class="slider text-primary">
+                      <p>
+                        <i class="bi bi-calendar-event"></i><span id="tanggalwaktu"></span>
+                        <script src="js/date.js"></script>
+                      </p>
+                      <h1 class="home-greetings__heading text-primary">Cara Mengunakan Google Meet Untuk Rapat </h1>
+                      <div class="home-greetings__buttons mt-3">
+                        <a class="btn btn-primary me-3" href="/profile">Daftar</a>
+                        <a id="btn" class="nav-link" href="#kontak"><button type="button"
+                            class="btn btn-outline-primary">lihat Event</button></a>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-5">
+                  <img src="img/ktp.png" class="rounded mx-auto d-block" alt="1" width="400" />
+                </div>
+              </div>
+            </div>
+            </svg>
+          </section>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
   </header>

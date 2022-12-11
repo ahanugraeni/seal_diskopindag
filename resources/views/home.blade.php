@@ -32,6 +32,8 @@
 <!-- navbar -->
 @include('partials.navbar');
 
+
+
 @include('partials.carousel');
 
 
