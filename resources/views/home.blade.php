@@ -14,7 +14,6 @@
   <!-- bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-
   <!-- css  -->
   <link rel="stylesheet" href="css/style.css" />
   
@@ -31,24 +30,11 @@
       <span class="preloader__text">Memuat...</span>
     </div>
   </div>
+<!-- navbar -->
+@include('partials.navbar');
 
-  <!-- Topbar -->
-  <nav class="topbar">
-    <div class="container">
-      <ul class="topbar__nav">
-        <li class="topbar__item">
-          <a href="https://malangkota.go.id/" target="_blank">Pemkot Malang</a>
-        </li>
-        <li class="topbar__item">
-          <a href="http://kota.directory/malang-directory/" target="_blank">Direktori</a>
-        </li>
-        <li class="topbar__item">
-          <a href="https://smartcity.malangkota.go.id/" target="_blank">Smart City</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
 
+<<<<<<< HEAD
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
     <div class="container">
@@ -123,19 +109,15 @@
         </table>
       </div>
     </div>
+=======
 
-    <div class="overlay__wave">
-        <svg viewBox="0 0 1440 135" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M1440 0.844691V135H0V0.844691C238.272 55.7142 478.272 83.1489 720 83.1489C961.728 83.1489 1201.73 55.7142 1440 0.844691Z" fill="white"></path>
-        </svg>
-      </div>
-  </header>
-<br>
-<br>
+@include('partials.carousel');
+>>>>>>> e698140c23bb1064b79d5eee8df1303fadffd934
+
 
 <!-- daftar event -->
 <section class="daftar-event m-5">
-  <h1 class=" text-center text-primary">Daftar Event</h1>
+  <h1 class=" text-center ">Daftar Event</h1>
    <div class="nav-list m-5">
     <div class="row row-cols-1 row-cols-md-3 g-4">
       <div class="col">
@@ -224,7 +206,7 @@
 
 <!-- Galeri Event -->
 <section class="daftar-event m-5">
-  <h1 class=" text-center text-primary">Galeri Event</h1>
+  <h1 class=" text-center ">Galeri Event</h1>
    <div class="nav-list m-5">
     <div class="row row-cols-1 row-cols-md-3 g-4">
       <div class="col">
@@ -263,7 +245,7 @@
   <!-- F&Q -->
   <p class="text-center text-primary">Apakah Ada yang Ditanyakan?</p>
     <br>
-      <h1 class="text-center text-primary">
+      <h1 class="text-center ">
       <p> Pertanyaan Yang Sering Ditanyakan </p> </h1>
 
       <p class="text-center text-primary">Bagaimana cara mendaftar event ?</p>
