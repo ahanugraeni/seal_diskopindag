@@ -26,6 +26,9 @@ Route::get('/login', function () {
 Route::get('/daftar', function () {
     return view('login.registrasi-user');
 });
+Route::get('/lupa-password', function () {
+    return view('login.');
+});
 Route::get('/ktp', function () {
     return view('login.upload');
 });
