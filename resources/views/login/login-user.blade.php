@@ -24,10 +24,10 @@
   <div class="forgot ">
   <p id="pwd" class="text-end pe-5 me-4"><a href="lupa password" >Lupa Password ? </a></p>
   </div>
-  <p class="fs-5 text-dark md-5 text-center fw-bolder"> Tidak memiliki akun ? <a href=login.blade.php>Daftar sekarang</a></p>
+  <p class="fs-5 text-dark md-5 text-center fw-bolder"> Tidak memiliki akun ? <a href="/daftar">>Daftar sekarang</a></p>
 
   <div class="button text-center pe-5">
-  <a href=login.blade.php><button type="button"  class="btn btn-primary "> MASUK </button></a>
+  <a href="/login">><button type="button"  class="btn btn-primary "> MASUK </button></a>
   </div>
 </form>
       </div>

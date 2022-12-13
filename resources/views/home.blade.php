@@ -17,6 +17,7 @@
 
   <!-- css  -->
   <link rel="stylesheet" href="css/style.css" />
+  
   <!-- CDN Icon -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" />
 </head>
@@ -88,18 +89,15 @@
           </li>
           <li class="nav-item">
         </ul>
-        <div class="signup">
-        <a class="btn btn-outline-primary me-4" href="daftar">DAFTAR</a>
-        </div>
-        <div class="home-greetings__buttons">
-          <a class="btn btn-primary " href="login">LOGIN</a>
+        <div>
+        <a class="btn btn-primary" href="/daftar">DAFTAR</a>
+        <a class="btn btn-primary" href="/login">MASUK</a>
       </div>
       </li>
     </div>
     </div>
   </nav>
 
-  <br>
   <br>
   <header class="header home" id="beranda">
     <div class="container">    
@@ -111,8 +109,8 @@
               <br>
               <br>
             </h1>
-            <div class="home-greetings__buttons">
-              <a class="btn btn-primary me-3" href="/profile">Daftar Event</a>
+            <div>
+              <a class="btn btn-primary me-3" href="/daftar">Daftar Event</a>
               <a class="btn btn-outline-primary" target="_blank" href="/detail_event">Lihat Event</a>
             </div>
             </td>
@@ -291,19 +289,19 @@
 
             <ul class="footer__contact">
               <li>
-                <i class="bx bx-map"></i>
+              <i class="bi bi-geo-alt-fill"></i>
                 <span>
                 Jl. Simpang Terusan Danau Sentani No.3 Malang 65138
                 </span>
               </li>
               <li>
-                <i class="bx bx-mail-send"></i>
+              <i class="bi bi-envelope-at-fill"></i>
                 <span>
                 diskopindag.kotamalang@gmail.com
                 </span>
               </li>
               <li>
-                <i class="bx bx-phone"></i>
+              <i class="bi bi-telephone-fill"></i>
                 <span>
                 (0341) 716546
                 </span>
@@ -311,6 +309,7 @@
             </ul>
 
             <p class="footer__copy">
+            <i class="bi bi-c-circle"></i>
               copyright 2021 - Diskopindag Malang
             </p>
           </div>

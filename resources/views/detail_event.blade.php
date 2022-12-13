@@ -15,6 +15,17 @@
 	<script type="text/javascript" src="js/jquery.js"></script>
 	<script type="text/javascript" src="js/bootstrap.js"></script>
   
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+  <!-- css  -->
+  <link rel="stylesheet" href="css/style.css" />
+  
+  <!-- CDN Icon -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" />
+</head>
+
 </head>
 
 <body id="body" data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="0" tabindex="0">
@@ -59,7 +70,7 @@
             <a class="nav-link" href="/">Beranda</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link " href="/profile">Profil</a>
+            <a class="nav-link " href="https://diskopindag.malangkota.go.id/profile">Profil</a>
           </li>
           <li class="nav-item dropdown" data-toggle="hover">
             <a class="nav-link" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Layanan</a>
@@ -71,22 +82,22 @@
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link " href="/information">Informasi</a>
+            <a class="nav-link " href="https://diskopindag.malangkota.go.id/information">Informasi</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link " href="/event">Event</a>
+            <a class="nav-link " href="/">Event</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link " href="/news">Berita</a>
+            <a class="nav-link " href="https://diskopindag.malangkota.go.id/news">Berita</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#kontak">Kontak</a>
           </li>
           <li class="nav-item">
         </ul>
-        <div class="home-greetings__buttons">
-            <a class="btn btn-primary me-3" href="/profile">Masuk</a>
-            <a class="btn btn-outline-dark" target="_blank" href="https://malangkota.go.id/">Daftar</a>
+        <div>
+        <a class="btn btn-primary" href="/daftar">DAFTAR</a>
+        <a class="btn btn-primary" href="/login">MASUK</a>
       </div>
       </li>
     </div>
@@ -95,13 +106,10 @@
 
 
 <!-- Detail Event -->  
-<br>
-  <header class="header home" id="beranda">
+  <header class="header home">
     <div class="container">
     <h4 class=" text-center text-primary">Daftar Event</h4>
             <br>
-            <br>
-
             <table>
             <td>
             <h3>Cara Menggunakan Google Meet Untuk Rapat</h3>
@@ -118,8 +126,8 @@
               <p  class="text-primary"> 25 Desember 2022</p>
             
 
-            <div class="home-greetings__buttons">
-              <a class="btn btn-primary me-3" href="/profile">Daftar</a>
+            <div>
+              <a class="btn btn-primary me-3" href="/daftar">Daftar</a>
             </div>
             </td>
             
@@ -183,9 +191,9 @@
           <hr>
         </table>
       </div>
-
-    <!-- Footer -->
-    <footer class="footer" id="kontak">
+  </body>
+<!-- Footer -->
+<footer class="footer" id="kontak">
     <div class="container">
         <div class="col-lg-5">
             <p class="footer__desc">
@@ -194,19 +202,19 @@
 
             <ul class="footer__contact">
               <li>
-                <i class="bx bx-map"></i>
+              <i class="bi bi-geo-alt-fill"></i>
                 <span>
                 Jl. Simpang Terusan Danau Sentani No.3 Malang 65138
                 </span>
               </li>
               <li>
-                <i class="bx bx-mail-send"></i>
+              <i class="bi bi-envelope-at-fill"></i>
                 <span>
                 diskopindag.kotamalang@gmail.com
                 </span>
               </li>
               <li>
-                <i class="bx bx-phone"></i>
+              <i class="bi bi-telephone-fill"></i>
                 <span>
                 (0341) 716546
                 </span>
@@ -214,14 +222,13 @@
             </ul>
 
             <p class="footer__copy">
+            <i class="bi bi-c-circle"></i>
               copyright 2021 - Diskopindag Malang
             </p>
           </div>
         </div>
       </div>
     </div>
+  </footer>
   <!-- End Footer -->
-    </div>
-    </footer>
-  </body>
 </html>
