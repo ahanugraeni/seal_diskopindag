@@ -16,6 +16,10 @@
         "postcss": "^8.1.14"
     },
     "dependencies": {
+<<<<<<< HEAD
+        "bootstrap-icons": "^1.10.2"
+=======
         "sweetalert2": "^11.6.15"
+>>>>>>> e698140c23bb1064b79d5eee8df1303fadffd934
     }
 }
