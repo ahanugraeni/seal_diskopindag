@@ -38,160 +38,96 @@
     </div>
   </div>
 
-  <!-- Topbar -->
-  <nav class="topbar">
-    <div class="container">
-      <ul class="topbar__nav">
-        <li class="topbar__item">
-          <a href="https://malangkota.go.id/" target="_blank">Pemkot Malang</a>
-        </li>
-        <li class="topbar__item">
-          <a href="http://kota.directory/malang-directory/" target="_blank">Direktori</a>
-        </li>
-        <li class="topbar__item">
-          <a href="https://smartcity.malangkota.go.id/" target="_blank">Smart City</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
+  @include('partials.navbar');
 
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
-    <div class="container">
-      <a class="navbar-brand" href="/">
-        <img src="https://diskopindag.malangkota.go.id/image/site/1622779402_logo.png" alt="DISKOPINDAG MALANG">
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <i class="bx bx-menu-alt-right"></i>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="/">Beranda</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link " href="https://diskopindag.malangkota.go.id/profile">Profil</a>
-          </li>
-          <li class="nav-item dropdown" data-toggle="hover">
-            <a class="nav-link" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Layanan</a>
-            <div class="dropdown-menu">
-                <a href="https://sambat.malangkota.go.id/" class="dropdown-item">Kritik dan Saran</a>
-                <a href="https://sembako.malangkota.go.id/" class="dropdown-item">Sembako</a>
-                <a href="https://metrologi.malangkota.go.id/" class="dropdown-item">Metrologi</a>
-                <a href="https://pasarmbois.malangkota.go.id/" class="dropdown-item">Marketplace UMKM</a>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link " href="https://diskopindag.malangkota.go.id/information">Informasi</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link " href="/">Event</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link " href="https://diskopindag.malangkota.go.id/news">Berita</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#kontak">Kontak</a>
-          </li>
-          <li class="nav-item">
-        </ul>
-        <div>
-        <a class="btn btn-primary" href="/daftar">DAFTAR</a>
-        <a class="btn btn-primary" href="/login">MASUK</a>
+<!-- Detail Event -->   
+<header class="py-5 mt-5">
+  <div class="container pt-5">
+    <h1 class="text-center mt-3 mb-5" >DETAIL EVENT</h1>
+    <div class="row">
+      <div class="col-6">
+        <h1 class="fw-bold mb-3">Cara Menggunakan Google Meet Untuk Rapat </h1>
+        <p>Google Meet adalah aplikasi rapat dalam jaringan (daring) yang bisa dilakukan oleh semua kalangan. Google Meet memberikan wadah untuk semua pengguna melakukan kegiatan yang berbentuk daring. Aplikasi ini membuat kegiatan terasa ringan dengan cukup melakukan kegiatan di depan layar. </p>
+       <div class="row" id="dates" >
+        <div class="col-4">
+          <h4>Lokasi</h4>
+          <p><i class="bi bi-geo-alt text-primary"></i>Aula Diskopindag Kota Malang</p>
+            <a href="daftar-event"><button type="button" id="login" class="btn">Daftar</button></a>
+        </div>
+        <div class="col-8 ps-5">
+        <h4>Tangggal Dan Waktu</h4>
+          <p><i class="bi bi-calendar-event text-primary"></i>25 Desember 2022, 09-00 WIB-selesai</p>
+        </div>
+       </div>
       </div>
-      </li>
-    </div>
-    </div>
-  </nav>
-
-
-<!-- Detail Event -->  
-  <header class="header home">
-    <div class="container">
-    <h4 class=" text-center text-primary">Daftar Event</h4>
-            <br>
-            <table>
-            <td>
-            <h3>Cara Menggunakan Google Meet Untuk Rapat</h3>
-            <p> Google Meet adalah aplikasi rapat dalam jaringan (daring) yang bisa dilakukan oleh semua kalangan. Google Meet memberikan wadah untuk semua pengguna melakukan kegiatan yang berbentuk daring. Aplikasi ini membuat kegiatan terasa ringan dengan cukup melakukan kegiatan di depan layar. </p>
-            <br>
-
-            <row>
-              <h4  class=" text-primary">Lokasi</h4>
-              <p  class=" text-primary"> Aula Diskopindag Kota Malang</p>
-            </row>
-
-            <br>
-              <h4  class="text-primary">Waktu</h4>
-              <p  class="text-primary"> 25 Desember 2022</p>
-            
-
-            <div>
-              <a class="btn btn-primary me-3" href="/daftar">Daftar</a>
-            </div>
-            </td>
-            
-            <td>
-            <div class="gambar_event">
-            <img src="https://gmedia.net.id/upload/foto_artikel/20210705FkVktopple.jpg" alt="" style="width: 80%; height: 80%">
-            </div>
-        </td>
-        </table>
-      </div>
-    </div>
-
-    <div class="overlay__wave">
-        <svg viewBox="0 0 1440 135" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M1440 0.844691V135H0V0.844691C238.272 55.7142 478.272 83.1489 720 83.1489C961.728 83.1489 1201.73 55.7142 1440 0.844691Z" fill="white"></path>
-        </svg>
-      </div>
-  </header>
-<br>
-<br>
-<!-- End Detail Event -->
-
-  <div class="row gx-lg-5 justify-content-center align-items-center" style="padding: 120px; padding-bottom: 0px; padding-top: 0px;">
-    <div class="col-lg-5">
-     <img src="https://gmedia.net.id/upload/foto_artikel/20210705FkVktopple.jpg" class="card-img" alt="Kepala Dinas" id="kadisImg">
-      </div>
-        <div class="col-lg-7 col-xl-7">
-          <h5 class="card-subtitle">Cara Menggunakan Goggle Meet</h5>
-          <div class="card-body">
-            <p class="card-text mb-4">
-            Google Meet adalah aplikasi rapat dalam jaringan (daring) yang bisa dilakukan oleh semua kalangan. Google Meet memberikan wadah untuk semua pengguna melakukan kegiatan yang berbentuk daring. Aplikasi ini membuat kegiatan terasa ringan dengan cukup melakukan kegiatan di depan layar.
-            </p>
+      <div class="col-6" >
+        <img src="https://gmedia.net.id/upload/foto_artikel/20210705FkVktopple.jpg" alt="media" class="rounded mt-3" width="500">
       </div>
     </div>
   </div>
+ </header>
 
-      <!-- Rincian Kegiatan -->
-      <br>
-      <br>
+ <!-- pemateri -->
+ <section>
+  <div class="container my-5 ">
+  <div class="row">
+    <div class="col-4">
+      <img src="img/akun.jpg" class="rounded-circle" width="300" alt="mc">
+    </div>
+    <div class="col-8">
+      <h1>Andre jahilani M.kom</h1>
+      <p class="fst-italic mb-3 text-primary">CEO Makansehat.com</p>
+      <p>Andre merupakan ahli di bidang ekonomi mulai dari tahun 2015 sampai saat ini, beliau memulai bisnis ditahun 2010 dan sudah memiliki 500 cabang FnB di seluruh Indonesia dengan menerapakan meet memakai GGmeet dengan efektif.</p>
+      <p class="fw-bold">Folow</p>
+      <p>
+        <a href=""><i class="bi bi-twitter text-primary me-3"></i></a>
+        <a href=""><i class="bi bi-linkedin text-primary me-3"></i></a>
+        <a href=""><i class="bi bi-instagram text-primary me-3"></i></a>
+        <a href=""><i class="bi bi-facebook text-primary me-3"></i></a>
+      </p>
+    </div>
+  </div>
+  </div>
+ </section>
+
+<!-- Rincian Kegiatan -->
+<section>
+  <div class="containers pt-5 ">
+    <h4 class=" text-center ">Rincian Kegiatan</h4>
+    <p class= "text-center my-5">Berikut rincian kegiatan yang dilakukan : </p>
+    <table class="table table-light table-borderless rounded">
+      <tr>
+        <td class="ps-5" width="300px">Peserta melakukan pendaftaran di website</td>
+        <td class="ps-5"><h3>Validasi Peserta</h3></td>
+        <td><i class="bi bi-clock-fill text-primary"></i>07.00 - 07.30 WIB</td>
+      </tr>
+      <tr>
+        <td class="ps-5">Peserta memindai kode QR sebelum masuk ke ruangan </td>
+        <td class="ps-5"><h3>Presensi Peserta</h3></td>
+        <td><i class="bi bi-clock-fill text-primary"></i>07.00 - 07.30 WIB</td>
+      </tr>
+      <tr>
+        <td class="ps-5">Kegiatan dilaksanakan dan penyampaian materi pelatihan</td>
+        <td class="ps-5"><h3>Pembukaan</h3></td>
+        <td><i class="bi bi-clock-fill text-primary"></i>07.00 - 07.30 WIB</td>
+      </tr>
+      <tr>
+        <td class="ps-5">Kegiatan ditutup dan peserta meninggalkan ruangan</td>
+        <td class="ps-5"><h3>Acara Inti</h3></td>
+        <td><i class="bi bi-clock-fill text-primary"></i>07.00 - 07.30 WIB</td>
+      </tr>
+      <tr>
+        <td class="ps-5">Peserta melakukan pendaftaran di website</td>
+        <td class="ps-5"><h3>Penutupan</h3></td>
+        <td><i class="bi bi-clock-fill text-primary"></i>07.00 - 07.30 WIB</td>
+      </tr>
+    </table>
     
-      <h4 class=" text-center text-primary">Rincian Kegiatan</h4>
-      <p class= "text-center">Berikut rincian kegiatan yang dilakukan : </p>
-    
-      <div style="text-align: center; margin: 140px; margin-top:50px; margin-bottom:50px; background-color:#F6F6F6">
-       <table>
-          
-          <p>Peserta melakukan <br> pendaftaran di website</p>
-          <h4  class="text-center text-primary"> Validasi Peserta</h4>
-          <hr> 
+  </div>
 
-          <p>Peserta memindai kode QR  <br> sebelum masuk ke ruangan</p>
-          <h4  class="text-center text-primary"> Presensi Peserta </h4>
-          <hr>
-
-          <p>Kegiatan dilaksanakan dan  <br> penyampaian materi pelatihan</p>
-          <h4  class="text-center text-primary"> Pembukaan </h4>
-          <hr>
-
-          <p>Kegiatan ditutup dan  <br> peserta meninggalkan ruangan</p>
-          <h4  class="text-center text-primary"> Penutupan </h4>
-          <hr>
-        </table>
-      </div>
-  </body>
+</section>
+     
+</body>
 <!-- Footer -->
 <footer class="footer" id="kontak">
     <div class="container">

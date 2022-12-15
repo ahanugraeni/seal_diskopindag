@@ -1,15 +1,57 @@
 .home-greetings__buttons .btn {
     background-color: #2552aa;
     color: #ffffff;
-    height: 30px;
+  
 }
 .signup .btn {
     height: 30px;
-}
-h1{
-    color: #2552aa;
 }
 ul li a{
     text-decoration: none;
     color: #2552aa;
 }
+#login{
+    background-color: #2552aa;
+    color: #ffffff;
+}
+#login:hover {
+   background-color:#0d6efd;
+   }
+   .mynav ul {
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+  }
+  .mynav a {
+    display: block;
+    font-size: 15px;
+    color: #2552aa;
+    text-decoration: none;
+    padding: 7px 15px;
+  }
+   .mynav a:hover{
+    color: #0d6efd;
+   }
+
+   .col .card img{
+    height: 400;
+    width: 350;
+   }
+.faq h4{
+    color: #2552aa;
+}
+#dates , h1 , h4 , h3 , .btn{
+    color: #2552aa;
+}
+
+td{
+    height: 100px;
+}
+.containers{
+    padding-left: 15%;
+    padding-right: 15%;
+   
+}
+
