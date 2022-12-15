@@ -41,59 +41,93 @@
   @include('partials.navbar');
 
 <!-- Detail Event -->   
-<header class="pt-5 mt-5">
+<header class="py-5 mt-5">
   <div class="container pt-5">
     <h1 class="text-center mt-3 mb-5" >DETAIL EVENT</h1>
     <div class="row">
       <div class="col-6">
         <h1 class="fw-bold mb-3">Cara Menggunakan Google Meet Untuk Rapat </h1>
         <p>Google Meet adalah aplikasi rapat dalam jaringan (daring) yang bisa dilakukan oleh semua kalangan. Google Meet memberikan wadah untuk semua pengguna melakukan kegiatan yang berbentuk daring. Aplikasi ini membuat kegiatan terasa ringan dengan cukup melakukan kegiatan di depan layar. </p>
-       <div class="row">
+       <div class="row" id="dates" >
         <div class="col-4">
-          <h4 class="tdl">Lokasi</h4>
+          <h4>Lokasi</h4>
           <p><i class="bi bi-geo-alt text-primary"></i>Aula Diskopindag Kota Malang</p>
+            <a href="daftar-event"><button type="button" id="login" class="btn">Daftar</button></a>
         </div>
         <div class="col-8 ps-5">
-        <h4 class="tdl">Tangggal Dan Waktu</h4>
+        <h4>Tangggal Dan Waktu</h4>
           <p><i class="bi bi-calendar-event text-primary"></i>25 Desember 2022, 09-00 WIB-selesai</p>
         </div>
        </div>
       </div>
       <div class="col-6" >
-        <img src="https://gmedia.net.id/upload/foto_artikel/20210705FkVktopple.jpg" alt="media" class="rounded" width="500">
+        <img src="https://gmedia.net.id/upload/foto_artikel/20210705FkVktopple.jpg" alt="media" class="rounded mt-3" width="500">
       </div>
     </div>
   </div>
  </header>
-            
-      <!-- Rincian Kegiatan -->
-      <br>
-      <br>
+
+ <!-- pemateri -->
+ <section>
+  <div class="container my-5 ">
+  <div class="row">
+    <div class="col-4">
+      <img src="img/akun.jpg" class="rounded-circle" width="300" alt="mc">
+    </div>
+    <div class="col-8">
+      <h1>Andre jahilani M.kom</h1>
+      <p class="fst-italic mb-3 text-primary">CEO Makansehat.com</p>
+      <p>Andre merupakan ahli di bidang ekonomi mulai dari tahun 2015 sampai saat ini, beliau memulai bisnis ditahun 2010 dan sudah memiliki 500 cabang FnB di seluruh Indonesia dengan menerapakan meet memakai GGmeet dengan efektif.</p>
+      <p class="fw-bold">Folow</p>
+      <p>
+        <a href=""><i class="bi bi-twitter text-primary me-3"></i></a>
+        <a href=""><i class="bi bi-linkedin text-primary me-3"></i></a>
+        <a href=""><i class="bi bi-instagram text-primary me-3"></i></a>
+        <a href=""><i class="bi bi-facebook text-primary me-3"></i></a>
+      </p>
+    </div>
+  </div>
+  </div>
+ </section>
+
+<!-- Rincian Kegiatan -->
+<section>
+  <div class="containers pt-5 ">
+    <h4 class=" text-center ">Rincian Kegiatan</h4>
+    <p class= "text-center my-5">Berikut rincian kegiatan yang dilakukan : </p>
+    <table class="table table-light table-borderless rounded">
+      <tr>
+        <td class="ps-5" width="300px">Peserta melakukan pendaftaran di website</td>
+        <td class="ps-5"><h3>Validasi Peserta</h3></td>
+        <td><i class="bi bi-clock-fill text-primary"></i>07.00 - 07.30 WIB</td>
+      </tr>
+      <tr>
+        <td class="ps-5">Peserta memindai kode QR sebelum masuk ke ruangan </td>
+        <td class="ps-5"><h3>Presensi Peserta</h3></td>
+        <td><i class="bi bi-clock-fill text-primary"></i>07.00 - 07.30 WIB</td>
+      </tr>
+      <tr>
+        <td class="ps-5">Kegiatan dilaksanakan dan penyampaian materi pelatihan</td>
+        <td class="ps-5"><h3>Pembukaan</h3></td>
+        <td><i class="bi bi-clock-fill text-primary"></i>07.00 - 07.30 WIB</td>
+      </tr>
+      <tr>
+        <td class="ps-5">Kegiatan ditutup dan peserta meninggalkan ruangan</td>
+        <td class="ps-5"><h3>Acara Inti</h3></td>
+        <td><i class="bi bi-clock-fill text-primary"></i>07.00 - 07.30 WIB</td>
+      </tr>
+      <tr>
+        <td class="ps-5">Peserta melakukan pendaftaran di website</td>
+        <td class="ps-5"><h3>Penutupan</h3></td>
+        <td><i class="bi bi-clock-fill text-primary"></i>07.00 - 07.30 WIB</td>
+      </tr>
+    </table>
     
-      <h4 class=" text-center text-primary">Rincian Kegiatan</h4>
-      <p class= "text-center">Berikut rincian kegiatan yang dilakukan : </p>
-    
-      <div style="text-align: center; margin: 140px; margin-top:50px; margin-bottom:50px; background-color:#F6F6F6">
-       <table>
-          
-          <p>Peserta melakukan <br> pendaftaran di website</p>
-          <h4  class="text-center text-primary"> Validasi Peserta</h4>
-          <hr> 
+  </div>
 
-          <p>Peserta memindai kode QR  <br> sebelum masuk ke ruangan</p>
-          <h4  class="text-center text-primary"> Presensi Peserta </h4>
-          <hr>
-
-          <p>Kegiatan dilaksanakan dan  <br> penyampaian materi pelatihan</p>
-          <h4  class="text-center text-primary"> Pembukaan </h4>
-          <hr>
-
-          <p>Kegiatan ditutup dan  <br> peserta meninggalkan ruangan</p>
-          <h4  class="text-center text-primary"> Penutupan </h4>
-          <hr>
-        </table>
-      </div>
-  </body>
+</section>
+     
+</body>
 <!-- Footer -->
 <footer class="footer" id="kontak">
     <div class="container">

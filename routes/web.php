@@ -40,3 +40,6 @@ Route::get('detail_event', function () {
 Route::get('dashboard', function () {
     return view('admin.dashboard');
 });
+Route::get('daftar-event', function () {
+    return view('login.daftar-event');
+});

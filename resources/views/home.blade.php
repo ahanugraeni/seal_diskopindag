@@ -82,19 +82,18 @@
     </div>
   </section>
   
-  <br>
   <!-- F&Q -->
   <div class="faq text-center pt-3">
     <h4 class="mb-5">APAKAH ADA YANG INGIN DITANYAKAN ?</h4>
     <h1 class="mb-5">Beberapa pertanyaan yang sering muncul  </h1>
-    <h4 class="mb-3">Bagaimana cara mendaftar event ? 
+    <h4 class="mt-5">Bagaimana cara mendaftar event ? 
       <hr class="mt-5">
-    <h4 class="mb-3">Bagaimana cara mendaftar event ? 
+    <h4 class="mt-5">Bagaimana cara mendaftar event ? 
       <hr class="mt-5">
-    <h4 class="mb-3">Bagaimana cara mendaftar event ? 
+    <h4 class="mt-5">Bagaimana cara mendaftar event ? 
       <hr class="mt-5">
   </div>
-    
+
     <!-- Footer -->
     <footer class="footer" id="kontak">
     <div class="container">

@@ -1,21 +1,14 @@
 .home-greetings__buttons .btn {
     background-color: #2552aa;
     color: #ffffff;
-    height: 30px;
+  
 }
 .signup .btn {
     height: 30px;
 }
-h1{
-    color: #2552aa;
-}
 ul li a{
     text-decoration: none;
     color: #2552aa;
-}
-.btn{
-    color: #2552aa;
-
 }
 #login{
     background-color: #2552aa;
@@ -49,6 +42,16 @@ ul li a{
 .faq h4{
     color: #2552aa;
 }
-h2 .tdl{
+#dates , h1 , h4 , h3 , .btn{
     color: #2552aa;
 }
+
+td{
+    height: 100px;
+}
+.containers{
+    padding-left: 15%;
+    padding-right: 15%;
+   
+}
+
