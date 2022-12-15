@@ -1,6 +1,6 @@
 <header class="header home p-5" id="beranda">
     <div class="container mb-5">
-      <h1 class="event text-center p-5  ">Event Terbaru</h1>
+      <h1 class="event text-center p-5 mt-5">Event Terbaru</h1>
     </div>
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
       <div class="carousel-indicators">
@@ -25,14 +25,14 @@
                       <h1 class="home-greetings__heading text-primary">Cara Mengunakan Google Meet Untuk Rapat</h1>
                       <div class="home-greetings__buttons mt-3">
                         <a class="btn btn-primary me-3" href="/profile">Daftar</a>
-                        <a id="btn" class="nav-link" href="#kontak"><button type="button"
+                        <a id="btn" class="nav-link" href="detail_event"><button type="button"
                             class="btn btn-outline-primary">lihat Event</button></a>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div class="col-md-5">
-                  <img src="img/ktp.png" class="rounded mx-auto d-block" alt="1" width="800" />
+                  <img src="img/ktp.png" class="rounded mx-auto d-block" alt="1" width="400" />
                 </div>
               </div>
             </div>

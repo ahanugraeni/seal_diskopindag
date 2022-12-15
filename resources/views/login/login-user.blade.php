@@ -26,17 +26,10 @@
   <div class="forgot ">
   <p id="pwd" class="text-end pe-5 me-4"><a href="lupa-password" >Lupa Password ? </a></p>
   </div>
-<<<<<<< HEAD
-  <p class="fs-5 text-dark md-5 text-center fw-bolder"> Tidak memiliki akun ? <a href="/daftar">>Daftar sekarang</a></p>
+  <p class="fs-5 text-dark md-5 text-center fw-bolder"> Tidak memiliki akun ? <a href="/daftar">Daftar sekarang</a></p>
 
   <div class="button text-center pe-5">
-  <a href="/login">><button type="button"  class="btn btn-primary "> MASUK </button></a>
-=======
-  <p class="fs-5 text-dark md-5 text-center fw-bolder"> Tidak memiliki akun ? <a href="daftar">Daftar sekarang</a></p>
-
-  <div class="button text-center pe-5">
-  <a href="#kontak"><button type="button"  class="btn btn-primary "> Kirim </button></a>
->>>>>>> e698140c23bb1064b79d5eee8df1303fadffd934
+  <a href="/login"><button type="button"  class="btn btn-primary "> MASUK </button></a>
   </div>
 </form>
       </div>

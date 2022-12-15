@@ -33,176 +33,11 @@
 <!-- navbar -->
 @include('partials.navbar');
 
-
-<<<<<<< HEAD
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
-    <div class="container">
-      <a class="navbar-brand" href="/">
-        <img src="https://diskopindag.malangkota.go.id/image/site/1622779402_logo.png" alt="DISKOPINDAG MALANG">
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <i class="bx bx-menu-alt-right"></i>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="/">Beranda</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link " href="https://diskopindag.malangkota.go.id/profile">Profil</a>
-          </li>
-          <li class="nav-item dropdown" data-toggle="hover">
-            <a class="nav-link" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Layanan</a>
-            <div class="dropdown-menu">
-                <a href="https://sambat.malangkota.go.id/" class="dropdown-item">Kritik dan Saran</a>
-                <a href="https://sembako.malangkota.go.id/" class="dropdown-item">Sembako</a>
-                <a href="https://metrologi.malangkota.go.id/" class="dropdown-item">Metrologi</a>
-                <a href="https://pasarmbois.malangkota.go.id/" class="dropdown-item">Marketplace UMKM</a>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link " href="https://diskopindag.malangkota.go.id/information">Informasi</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link " href="/">Event</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link " href="https://diskopindag.malangkota.go.id/news">Berita</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#kontak">Kontak</a>
-          </li>
-          <li class="nav-item">
-        </ul>
-        <div>
-        <a class="btn btn-primary" href="/daftar">DAFTAR</a>
-        <a class="btn btn-primary" href="/login">MASUK</a>
-      </div>
-      </li>
-    </div>
-    </div>
-  </nav>
-
-  <br>
-  <header class="header home" id="beranda">
-    <div class="container">    
-            <table>
-            <p>25 Desember 2022</p>
-            <td>
-            <h1 class="home-greetings__heading">
-              Cara Menggunakan Google Meet Untuk Rapat
-              <br>
-              <br>
-            </h1>
-            <div>
-              <a class="btn btn-primary me-3" href="/daftar">Daftar Event</a>
-              <a class="btn btn-outline-primary" target="_blank" href="/detail_event">Lihat Event</a>
-            </div>
-            </td>
-            
-            <td>
-            <div class="gambar_event">
-            <img src="https://gmedia.net.id/upload/foto_artikel/20210705FkVktopple.jpg" alt="" style="width: 80%; height: 80%">
-            </div>
-        </td>
-        </table>
-      </div>
-    </div>
-=======
-
+<!-- slider -->
 @include('partials.carousel');
->>>>>>> e698140c23bb1064b79d5eee8df1303fadffd934
 
-
-<!-- daftar event -->
-<section class="daftar-event m-5">
-  <h1 class=" text-center ">Daftar Event</h1>
-   <div class="nav-list m-5">
-    <div class="row row-cols-1 row-cols-md-3 g-4">
-      <div class="col">
-        <div class="card">
-          <img src="https://gmedia.net.id/upload/foto_artikel/20210705FkVktopple.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Cara Menggunakan Google Meet</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card">
-          <img src="https://gmedia.net.id/upload/foto_artikel/20210705FkVktopple.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card">
-          <img src="https://gmedia.net.id/upload/foto_artikel/20210705FkVktopple.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card">
-          <img src="https://gmedia.net.id/upload/foto_artikel/20210705FkVktopple.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card">
-          <img src="https://gmedia.net.id/upload/foto_artikel/20210705FkVktopple.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card">
-          <img src="https://gmedia.net.id/upload/foto_artikel/20210705FkVktopple.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card">
-          <img src="https://gmedia.net.id/upload/foto_artikel/20210705FkVktopple.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card">
-          <img src="https://gmedia.net.id/upload/foto_artikel/20210705FkVktopple.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card">
-          <img src="https://gmedia.net.id/upload/foto_artikel/20210705FkVktopple.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          </div>
-        </div>
-      </div>
-  </section>
-<!-- daftar event end -->
+ <!-- daftar event -->
+@include('partials.daftar-event');
 
 <!-- Galeri Event -->
 <section class="daftar-event m-5">
@@ -214,7 +49,6 @@
           <img src="https://gmedia.net.id/upload/foto_artikel/20210705FkVktopple.jpg"class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
           </div>
         </div>
       </div>
@@ -224,7 +58,14 @@
           <img src="https://gmedia.net.id/upload/foto_artikel/20210705FkVktopple.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="https://gmedia.net.id/upload/foto_artikel/20210705FkVktopple.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
           </div>
         </div>
       </div>
@@ -243,23 +84,16 @@
   
   <br>
   <!-- F&Q -->
-  <p class="text-center text-primary">Apakah Ada yang Ditanyakan?</p>
-    <br>
-      <h1 class="text-center ">
-      <p> Pertanyaan Yang Sering Ditanyakan </p> </h1>
-
-      <p class="text-center text-primary">Bagaimana cara mendaftar event ?</p>
-      <hr>
-      <br>
-
-      <p class="text-center text-primary">Bagaimana Cara mendaftar event ?</p>
-      <hr>
-      <br>
-
-      <p class="text-center text-primary">Bagaimana cara mendaftar event?</p>
-      <hr>
-      <br>
-    </body>
+  <div class="faq text-center pt-3">
+    <h4 class="mb-5">APAKAH ADA YANG INGIN DITANYAKAN ?</h4>
+    <h1 class="mb-5">Beberapa pertanyaan yang sering muncul  </h1>
+    <h4 class="mb-3">Bagaimana cara mendaftar event ? 
+      <hr class="mt-5">
+    <h4 class="mb-3">Bagaimana cara mendaftar event ? 
+      <hr class="mt-5">
+    <h4 class="mb-3">Bagaimana cara mendaftar event ? 
+      <hr class="mt-5">
+  </div>
     
     <!-- Footer -->
     <footer class="footer" id="kontak">

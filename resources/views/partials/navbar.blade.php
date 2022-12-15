@@ -16,10 +16,10 @@
   </nav>
 
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-light fixed-top mt-5" id="mainNav">
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top mt-5 " id="mainNav">
     <div class="container">
-      <a class="navbar-brand" href="/">
-        <img src="https://diskopindag.malangkota.go.id/image/site/1622779402_logo.png" alt="DISKOPINDAG MALANG">
+      <a class="navbar-brand"  href="/">
+        <img src="https://diskopindag.malangkota.go.id/image/site/1622779402_logo.png" class="me-3" alt="DISKOPINDAG MALANG">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <i class="bx bx-menu-alt-right"></i>
@@ -50,26 +50,34 @@
           <li class="nav-item">
             <a class="nav-link " href="https://diskopindag.malangkota.go.id/news">Berita</a>
           </li>
-          <li class="nav-item pe-5">
-            <a class="nav-link" id="btn" href="">Kontak</a> 
+          <li class="nav-item pe-3">
+            <a class="nav-link" href="">Kontak</a> 
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="daftar"><button type="button"
+                class="btn btn-outline-primary">Daftar</button></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login"><button type="button" id="login" class="btn">Login</button></a>
           </li>
         </ul>
+        
         <!-- dropdown akun -->
-  <div class="btn-group ps-3">
-    <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-      <img src="img/akun.jpg" class="rounded-circle img-thumnail" width="30px" alt=""> 
-    </button>
-    <ul class="dropdown-menu dropdown-menu-end text-center">
-      <li><img src="img/akun.jpg" class="rounded-circle" alt="akun" width="30px"></li>
-      <li></li>
-      <li><button class="dropdown-item" type="button"><a href="/">Alex benjamin</a></button></li>
-      <li><button class="dropdown-item" type="button">benjamin@gmail.com</button></li>
-      <li><button class="dropdown-item" type="button"><a href="/">Beranda</a></button></li>
-      <li><button class="dropdown-item" type="button"><a href="/">Profil</a></button></li>
-      <li><button class="dropdown-item" type="button"><a href="/">Riwayat</a></button></li>
-      <li><button class="dropdown-item" type="button"><a href="/">Logout</a></button></li>
-    </ul>
-  </div>
+        <!-- <div class="btn-group ps-3">
+          <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+            <img src="img/akun.jpg" class="rounded-circle img-thumnail" width="30px" alt=""> 
+          </button>
+          <ul class="dropdown-menu dropdown-menu-end text-center">
+            <li><img src="img/akun.jpg" class="rounded-circle" alt="akun" width="30px"></li>
+            <li></li>
+            <li><button class="dropdown-item" type="button"><a href="/">Alex benjamin</a></button></li>
+            <li><button class="dropdown-item" type="button">benjamin@gmail.com</button></li>
+            <li><button class="dropdown-item" type="button"><a href="/">Beranda</a></button></li>
+            <li><button class="dropdown-item" type="button"><a href="/">Profil</a></button></li>
+            <li><button class="dropdown-item" type="button"><a href="/">Riwayat</a></button></li>
+            <li><button class="dropdown-item" type="button"><a href="/">Logout</a></button></li>
+          </ul>
+        </div> -->
       </li>
     </div>
     </div>
