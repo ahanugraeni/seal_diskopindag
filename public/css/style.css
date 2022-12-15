@@ -34,7 +34,7 @@ ul li a{
   .mynav a {
     display: block;
     font-size: 15px;
-    color: #000000;
+    color: #2552aa;
     text-decoration: none;
     padding: 7px 15px;
   }
@@ -49,4 +49,6 @@ ul li a{
 .faq h4{
     color: #2552aa;
 }
-
+h2 .tdl{
+    color: #2552aa;
+}

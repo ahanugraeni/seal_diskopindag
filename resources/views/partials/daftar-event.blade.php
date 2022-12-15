@@ -3,12 +3,10 @@
     <div class="nav-list m-5">
       <nav class="mynav">
         <ul>
-          <li><a href="">Teknologi</a></li>
-          <li><a href="">Perdagangan</a></li>
-          <li><a href="">Industri</a></li>
-          <li><a href="">Pertanian</a></li>
-          <li><a href="">Clients</a></li>
-          <li><a href="">Contact</a></li>
+          <li><a href="">BISNIS</a></li>
+          <li><a href="">TEKNOLOGI</a></li>
+          <li><a href="">MARKETING</a></li>
+          <li><a href="">PERTANIAN</a></li>
         </ul>
       </nav>
       <span class="target"></span>
