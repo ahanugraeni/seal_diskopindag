@@ -53,7 +53,7 @@
                       <h1 class="home-greetings__heading text-primary">Cara Mengunakan Google Meet Untuk Rapat </h1>
                       <div class="home-greetings__buttons mt-3">
                         <a class="btn btn-primary me-3" href="/profile">Daftar</a>
-                        <a id="btn" class="nav-link" href="#kontak"><button type="button"
+                        <a id="btn" class="nav-link" href="daftar-event"><button type="button"
                             class="btn btn-outline-primary">lihat Event</button></a>
 
                       </div>

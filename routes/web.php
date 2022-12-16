@@ -43,3 +43,6 @@ Route::get('dashboard', function () {
 Route::get('daftar-event', function () {
     return view('login.daftar-event');
 });
+Route::get('foto-usaha', function () {
+    return view('login.foto-usaha');
+});
