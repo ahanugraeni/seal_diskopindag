@@ -41,8 +41,12 @@ Route::get('dashboard', function () {
     return view('admin.dashboard');
 });
 Route::get('daftar-event', function () {
-    return view('login.daftar-event');
+    return view('daftar-event');
 });
 Route::get('foto-usaha', function () {
     return view('login.foto-usaha');
+});
+
+Route::get('profile', function () {
+    return view('user-account.profile');
 });
