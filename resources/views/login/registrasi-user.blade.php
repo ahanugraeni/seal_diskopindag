@@ -22,22 +22,23 @@
             <input type="text" placeholder="Masukan nama lengkap anda" class="form-control mb-2" id="exampleInputEmail1"
               aria-describedby="emailHelp">
             <div class="mb-3">
-              <label for="exampleInputPassword1" class="form-label mb-2">Alamat lengkap</label>
-              <input type="password" placeholder="Masukan alamat anda" class="form-control " id="exampleInputPassword1">
+              <label for="exampleInputEmail1" class="form-label mb-2">Alamat lengkap</label>
+              <input type="text" placeholder="Masukan alamat anda" class="form-control mb-2" id="exampleInputEmail1">
             </div>
             <div class="mb-3">
               <label for="exampleInputEmail1" class="form-label mb-2"> NIK</label>
               <input type="text" placeholder="Masukan NIK anda" class="form-control mb-2" id="exampleInputEmail1"
                 aria-describedby="emailHelp">
               <div class="mb-3">
-                <label for="exampleInputPassword1" class="form-label mb-2">Lama Mempunyai Usaha</label>
-                <input type="password" placeholder="Berapa tahun mempunyai usaha" class="form-control "
-                  id="exampleInputPassword1">
+                <label for="exampleInputEmail1" class="form-label mb-2">Lama Mempunyai Usaha</label>
+                <input type="text" placeholder="Berapa tahun mempunyai usaha" class="form-control"
+                  id="exampleInputEmail1">
               </div>
               <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label mb-2">Password</label>
-                <input type="text" placeholder="Masukan password untuk akun anda" class="form-control mb-4"
+                <label for="exampleInputPassword1" class="form-label mb-2">Password</label>
+                <input type="password" placeholder="Masukan password untuk akun anda" class="form-control"
                   id="exampleInputEmail1" aria-describedby="emailHelp">
+                <br>
                 <div class="button text-center pe-5">
                   <a href="ktp"><button type="button" class="btn btn-primary "> LANJUTKAN </button></a>
                 </div>
@@ -45,9 +46,9 @@
       </div>
     </div>
   </div>
-    </div>
+  </div>
+
   
-  
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
   </body>
 </html>
