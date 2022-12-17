@@ -50,3 +50,6 @@ Route::get('foto-usaha', function () {
 Route::get('profile', function () {
     return view('user-account.profile');
 });
+Route::get('riwayat', function () {
+    return view('user-account.history');
+});
