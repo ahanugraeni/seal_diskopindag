@@ -45,12 +45,16 @@
        <div class="row" id="dates" >
         <div class="col-4">
           <h4>Lokasi</h4>
-          <p><i class="bi bi-geo-alt text-primary"></i>Aula Diskopindag Kota Malang</p>
+          <p><i class="bi bi-geo-alt text-primary me-3"></i>Aula Diskopindag Kota Malang</p>
             <a href="daftar-event"><button type="button" id="login" class="btn">Daftar</button></a>
         </div>
         <div class="col-8 ps-5">
         <h4>Tangggal Dan Waktu</h4>
+<<<<<<< HEAD
           <p><i class="bi bi-calendar-event text-primary"></i> 25 Desember 2022 <br> 09-00 WIB-selesai</p>
+=======
+          <p><i class="bi bi-calendar-event text-primary me-3"></i>25 Desember 2022, 09-00 WIB-selesai</p>
+>>>>>>> 1da7872f67f7305b49244ba4fca939a1c48d6d72
         </div>
        </div>
       </div>
@@ -116,9 +120,7 @@
         <td><i class="bi bi-clock-fill text-primary"></i>07.00 - 07.30 WIB</td>
       </tr>
     </table>
-    
   </div>
-
 </section>
      
 </body>

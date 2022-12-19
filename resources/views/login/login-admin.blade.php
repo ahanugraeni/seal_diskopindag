@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="en">
-
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,11 +11,11 @@
 
 <body>
   <div class="container">
-    <img src="img/logo-diskopindag.png" class="logo p-3 mx-auto d-block mt-4 " alt="logo">
     <div class="global-container">
       <div class="card login-form shadow  p-auto m-3">
+      <img src="img/logo-diskopindag.png" class="logo p-3 mx-auto d-block " alt="logo">
         <form>
-          <h1 class="card-title my-1 fs-3 fw-bold pt-5 mb-3">Masuk</h1>
+          <h1 class="card-title my-1 fs-3 fw-bold mb-3">Masuk</h1>
           <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label mb-2">Nama lengkap/ Nomor HP/ NIK</label>
             <input type="text" placeholder="Masukan nama lengkap anda" class="form-control mb-2" id="exampleInputEmail1"

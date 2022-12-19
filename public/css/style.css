@@ -42,7 +42,11 @@ ul li a{
 .faq h4{
     color: #2552aa;
 }
+<<<<<<< HEAD
 #dates , h1 , h4 , h3, h6 , .btn{
+=======
+#dates , h1 , h4 , h3 , .btn , label{
+>>>>>>> 1da7872f67f7305b49244ba4fca939a1c48d6d72
     color: #2552aa;
 }
 
@@ -53,5 +57,30 @@ td{
     padding-left: 15%;
     padding-right: 15%;
    
+}
+
+.sidebar {
+    height: 680px;
+    width: 270px;
+    list-style: none;
+    border: 2px solid #92a8d4;
+    font-size: 20;
+  }
+  .sidebar li a {
+    display: block;
+    padding-top: 20;
+    padding-bottom: 30;
+    text-decoration: none;
+    color: #2552aa;
+    
+  }
+  .sidebar li a:hover {
+    background-color: rgb(234 240 255); 
+  }
+a{
+    text-decoration: none;
+}
+input[type=text] , input[type=password]{
+    border-color: #2552aa;
 }
 
