@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 
-Route::get('/', function () {
+Route::get('/home', function () {
     return view('home');
 });
 Route::get('/admin', function () {
@@ -37,9 +37,35 @@ Route::get('detail_event', function () {
     return view('detail_event');
 });
 
+Route::get('usaha', function () {
+    return view('upload_usaha');
+});
+
 Route::get('dashboard', function () {
     return view('admin.dashboard');
 });
 Route::get('daftar-event', function () {
     return view('login.daftar-event');
+});
+
+Route::get('form_ktp', function () {
+    return view('form_ktp');
+});
+
+Route::get('form_usaha', function () {
+    return view('form_usaha');
+});
+
+Route::get('alert', function () {
+    return view('alert');
+});
+Route::get('/upload_usaha', function () {
+    return view('usaha');
+});
+
+Route::get('/beranda', function () {
+    return view('login.beranda');
+});
+Route::get('/konfirmasi', function () {
+    return view('konfirmasi');
 });
