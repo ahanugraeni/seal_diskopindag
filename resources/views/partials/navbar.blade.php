@@ -63,21 +63,21 @@
         </ul>
         
         <!-- dropdown akun -->
-        <!-- <div class="btn-group ps-3">
+        <div class="btn-group ps-3">
           <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
             <img src="img/akun.jpg" class="rounded-circle img-thumnail" width="30px" alt=""> 
           </button>
           <ul class="dropdown-menu dropdown-menu-end text-center">
             <li><img src="img/akun.jpg" class="rounded-circle" alt="akun" width="30px"></li>
             <li></li>
-            <li><button class="dropdown-item" type="button"><a href="/">Alex benjamin</a></button></li>
+            <li><button class="dropdown-item" type="button"><a href="profile">Alex benjamin</a></button></li>
             <li><button class="dropdown-item" type="button">benjamin@gmail.com</button></li>
             <li><button class="dropdown-item" type="button"><a href="/">Beranda</a></button></li>
-            <li><button class="dropdown-item" type="button"><a href="/">Profil</a></button></li>
-            <li><button class="dropdown-item" type="button"><a href="/">Riwayat</a></button></li>
+            <li><button class="dropdown-item" type="button"><a href="profile">Profil</a></button></li>
+            <li><button class="dropdown-item" type="button"><a href="riwayat">Riwayat</a></button></li>
             <li><button class="dropdown-item" type="button"><a href="/">Logout</a></button></li>
           </ul>
-        </div> -->
+        </div>
       </li>
     </div>
     </div>
