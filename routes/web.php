@@ -54,9 +54,6 @@ Route::get('foto-usaha', function () {
 Route::get('profile', function () {
     return view('user-account.profile');
 });
-Route::get('riwayat', function () {
-    return view('user-account.history');
-});
 
 Route::get('form_ktp', function () {
     return view('form_ktp');

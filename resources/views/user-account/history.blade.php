@@ -36,11 +36,11 @@
           </div>
         </div>
         <hr>
-        <div class="filter py-5">
-        <button type="submit" id="login" class="btn position-absolute end-0 fs-5"><i class="bi bi-sliders2-vertical me-2"></i>Filter</button>
+        <div class="filter pb-5">
+        <button type="submit" id="login" class="btn position-absolute end-0  fs-4"><i class="bi bi-sliders2-vertical me-2"></i>Filter</button>
         </div>
         <table class="table table-borderless">
-            <tr align="center">
+            <tr>
                 <th><h4>Tanggal</h4></th>
                 <th width="500px"><h4>Event</h4></th>
                 <th><h4>Status</h4></th>

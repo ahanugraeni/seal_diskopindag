@@ -8,7 +8,7 @@
   </head>
   <body>
     <!-- sidebar -->
-  <div class="row">
+  <div class="row pt-5">
     <div class="col-3">
     <div class="container-fluid pt-5 ">
       <h1 class="pt-3 pb-3 fw-bold">PROFIL SAYA</h1>
@@ -16,7 +16,7 @@
      
       <li><a href="/"><i class="bi bi-house me-3"></i>Beranda</a></li>
       <li><a href="profile"><i class="bi bi-person-circle me-3"></i>Profil Saya</a></li>
-      <li><a href="riwayat"><i class="bi bi-clock-history me-3"></i>Riwayat</a></li>
+      <li><a href="history"><i class="bi bi-clock-history me-3"></i>Riwayat</a></li>
       <li><a href="/"> <i class="bi bi-box-arrow-right me-3"></i>Logout</a></li>
       <hr width="90%">
       </ul>
@@ -31,7 +31,7 @@
           <img src="img/akun.jpg" alt="akun" width="80" class="rounded-circle mt-5">
           </div>
           <div class="col-10 pt-5">
-          <h3 class="mt-5 fw-bold">Alex Benjamin</h3>
+          <h1 class="mt-5 fw-bold">Alex Benjamin</h1>
          <a href=""><p>Edit Foto Profil</p></a>
           </div>
         </div>
