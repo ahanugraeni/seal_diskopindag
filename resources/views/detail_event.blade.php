@@ -37,29 +37,25 @@
 <!-- Detail Event -->   
 <header class="py-5 mt-5">
   <div class="container pt-5">
-    <h1 class="text-center mt-3 mb-5" >DETAIL EVENT</h1>
+    <h3 class="text-center mt-3 mb-5" >DETAIL EVENT</h3>
     <div class="row">
       <div class="col-6">
-        <h1 class="fw-bold mb-3">Cara Menggunakan Google Meet Untuk Rapat </h1>
-        <p>Google Meet adalah aplikasi rapat dalam jaringan (daring) yang bisa dilakukan oleh semua kalangan. Google Meet memberikan wadah untuk semua pengguna melakukan kegiatan yang berbentuk daring. Aplikasi ini membuat kegiatan terasa ringan dengan cukup melakukan kegiatan di depan layar. </p>
+        <h4 class="fw-bold mb-3">MGN Stage Malang </h4>
+        <p> MGN Stage merupakan bagian dari rangkaian program kepemudaan yang diselenggarakan oleh Media Gorup Network dengan tujuan membangkitkan semangat para pemuda, khususnya dalam menghadapi disrupsi yang terjadi saat ini. "Kita harus siap dengan perubahan. Jangan pernah mengubah mimpinya. Tapi caranya yang diubah untuk selalu siap beradaptasi” </p>
        <div class="row" id="dates" >
         <div class="col-4">
           <h4>Lokasi</h4>
-          <p><i class="bi bi-geo-alt text-primary me-3"></i>Aula Diskopindag Kota Malang</p>
-            <a href="daftar-event"><button type="button" id="login" class="btn">Daftar</button></a>
+          <p><i class="bi bi-geo-alt text-primary"></i>Aula Diskopindag Kota Malang</p>
+            <a href="/konfirmasi"><button type="button" id="login" class="btn">Daftar</button></a>
         </div>
         <div class="col-8 ps-5">
         <h4>Tangggal Dan Waktu</h4>
-<<<<<<< HEAD
-          <p><i class="bi bi-calendar-event text-primary"></i> 25 Desember 2022 <br> 09-00 WIB-selesai</p>
-=======
-          <p><i class="bi bi-calendar-event text-primary me-3"></i>25 Desember 2022, 09-00 WIB-selesai</p>
->>>>>>> 1da7872f67f7305b49244ba4fca939a1c48d6d72
+          <p><i class="bi bi-calendar-event text-primary"></i> 25 Desember 2022 <br> &emsp; 09-00 WIB-selesai</p>
         </div>
        </div>
       </div>
       <div class="col-6" >
-        <img src="https://gmedia.net.id/upload/foto_artikel/20210705FkVktopple.jpg" alt="media" class="rounded mt-3" width="500">
+        <img src="https://i.ytimg.com/vi/65XYaODDPPU/maxresdefault.jpg" alt="media" class="rounded mt-3" width="500">
       </div>
     </div>
   </div>
@@ -70,13 +66,14 @@
   <div class="container my-5 ">
   <div class="row">
     <div class="col-4">
-      <img src="img/akun.jpg" class="rounded-circle" width="300" height="300" alt="mc">
+      <img src="https://cdn0-production-images-kly.akamaized.net/J1jZnbzsDAwv5Flgib8I09skwXk=/1200x1200/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/2992291/original/002285300_1575978620-20191210-Wali-Kota-Malang-SUTIAJI-5.jpg" class="rounded-circle" width="300" height="300" alt="mc">
     </div>
     <div class="col-8">
-      <h1>Andre jahilani M.kom</h1>
-      <p class="fst-italic mb-3 text-primary">CEO Makansehat.com</p>
-      <p>Andre merupakan ahli di bidang ekonomi mulai dari tahun 2015 sampai saat ini, beliau memulai bisnis ditahun 2010 dan sudah memiliki 500 cabang FnB di seluruh Indonesia dengan menerapakan meet memakai GGmeet dengan efektif.</p>
-      <p class="fw-bold">Folow</p>
+      <h3> Drs. H. Sutiaji </h3>
+      <p class="fst-italic mb-3 text-primary"> Wali Kota Malang</p>
+      <p>Sutiaji mengajak anak muda terus meningkatkan literasi serta berkarya. 
+        Karena ini saatnya untuk menunjukkan aksi nyata bukan hanya sebuah ucapan. “Kita tunjukkan bahwa kita adalah orang yang berprestasi, kita berkarya yang membawa manfaat bagi bangsa. Pastikan kapasitas teknis diimbangi dengan kapasitas moral, integritas dan budaya. Karena integritas dan moral yang menguatkan kita.</p>
+      <p class="fw-bold">Follow</p>
       <p>
         <a href=""><i class="bi bi-twitter text-primary me-3"></i></a>
         <a href=""><i class="bi bi-linkedin text-primary me-3"></i></a>
@@ -90,77 +87,90 @@
 
 <!-- Rincian Kegiatan -->
 <section>
-  <div class="containers pt-5 ">
+  <div class="containers pt-5 " style="margin-left:100px; margin-right:100px">
     <h4 class=" text-center ">Rincian Kegiatan</h4>
     <p class= "text-center my-5">Berikut rincian kegiatan yang dilakukan : </p>
     <table class="table table-light table-borderless rounded">
       <tr>
         <td class="ps-5" width="300px">Peserta melakukan pendaftaran di website</td>
-        <td class="ps-5"><h3>Validasi Peserta</h3></td>
-        <td><i class="bi bi-clock-fill text-primary"></i>07.00 - 07.30 WIB</td>
+        <td class="ps-5"><h5>Validasi Peserta</h5></td>
+        <td><i class="bi bi-clock-fill text-primary"></i> 07.00 - 07.30 WIB</td>
       </tr>
       <tr>
         <td class="ps-5">Peserta memindai kode QR sebelum masuk ke ruangan </td>
-        <td class="ps-5"><h3>Presensi Peserta</h3></td>
-        <td><i class="bi bi-clock-fill text-primary"></i>07.00 - 07.30 WIB</td>
+        <td class="ps-5"><h5>Presensi Peserta</h5></td>
+        <td><i class="bi bi-clock-fill text-primary"></i> 07.00 - 07.30 WIB</td>
       </tr>
       <tr>
         <td class="ps-5">Kegiatan dilaksanakan dan penyampaian materi pelatihan</td>
-        <td class="ps-5"><h3>Pembukaan</h3></td>
-        <td><i class="bi bi-clock-fill text-primary"></i>07.00 - 07.30 WIB</td>
+        <td class="ps-5"><h5>Pembukaan</h5></td>
+        <td><i class="bi bi-clock-fill text-primary"></i> 07.00 - 07.30 WIB</td>
       </tr>
       <tr>
         <td class="ps-5">Kegiatan ditutup dan peserta meninggalkan ruangan</td>
-        <td class="ps-5"><h3>Acara Inti</h3></td>
-        <td><i class="bi bi-clock-fill text-primary"></i>07.00 - 07.30 WIB</td>
+        <td class="ps-5"><h5>Acara Inti</h5></td>
+        <td><i class="bi bi-clock-fill text-primary"></i> 07.00 - 07.30 WIB</td>
       </tr>
       <tr>
         <td class="ps-5">Peserta melakukan pendaftaran di website</td>
-        <td class="ps-5"><h3>Penutupan</h3></td>
-        <td><i class="bi bi-clock-fill text-primary"></i>07.00 - 07.30 WIB</td>
+        <td class="ps-5"><h5>Penutupan</h5></td>
+        <td><i class="bi bi-clock-fill text-primary"></i> 07.00 - 07.30 WIB</td>
       </tr>
     </table>
   </div>
 </section>
      
 </body>
-<!-- Footer -->
-<footer class="footer" id="kontak">
+ <!-- footer -->
+ <footer class="footer" id="kontak">
     <div class="container">
+      <div class="row justify-content-center">
         <div class="col-lg-5">
+          <div class="footer__about">
             <p class="footer__desc">
               Dinas Koperasi, Perindustrian dan Perdagangan merupakan lembaga bertipe A yang menyelenggarakan urusan pemerintahan bidang koperasi, bidang perindustrian, bidang usaha mikro, dan bidang perdagangan.
             </p>
 
             <ul class="footer__contact">
               <li>
-              <i class="bi bi-geo-alt-fill"></i>
                 <span>
                 Jl. Simpang Terusan Danau Sentani No.3 Malang 65138
                 </span>
               </li>
               <li>
-              <i class="bi bi-envelope-at-fill"></i>
                 <span>
                 diskopindag.kotamalang@gmail.com
                 </span>
               </li>
               <li>
-              <i class="bi bi-telephone-fill"></i>
                 <span>
                 (0341) 716546
                 </span>
               </li>
             </ul>
 
+            <p>
+              <a href=""><i class="bi bi-twitter text-primary me-3"></i></a>
+              <a href=""><i class="bi bi-linkedin text-primary me-3"></i></a>
+              <a href=""><i class="bi bi-instagram text-primary me-3"></i></a>
+              <a href=""><i class="bi bi-facebook text-primary me-3"></i></a>
+            </p>
+
             <p class="footer__copy">
-            <i class="bi bi-c-circle"></i>
               copyright 2021 - Diskopindag Malang
             </p>
+          </div>
+        </div>
+        <div class="col-lg-5 position-relative">
+          <div class="footer__map">
+            <div class="footer__divider"></div>
+            <h1 class="footer__diskopindag-title">Lokasi Diskopindag Malang</h1>
+            <div class="footer__diskopindag-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3951.260539779671!2d112.66837231474214!3d-7.972003094258327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd628f700181a8d%3A0x65508a920d48e0da!2sDinas%20Koperasi%20Perindustrian%20dan%20Perdagangan%20Kota%20Malang!5e0!3m2!1sen!2sid!4v1622169972691!5m2!1sen!2sid" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </footer>
-  <!-- End Footer -->
 </html>

@@ -27,7 +27,7 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link" href="/">Beranda</a>
+              <a class="nav-link" href="/home">Beranda</a>
             </li>
             <li class="nav-item">
               <a class="nav-link " href="https://diskopindag.malangkota.go.id/profile">Profil</a>
@@ -45,7 +45,7 @@
               <a class="nav-link " href="https://diskopindag.malangkota.go.id/information">Informasi</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link " href="/">Event</a>
+              <a class="nav-link " href="/home">Event</a>
             </li>
             <li class="nav-item">
               <a class="nav-link " href="https://diskopindag.malangkota.go.id/news">Berita</a>
