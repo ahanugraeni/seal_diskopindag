@@ -50,11 +50,7 @@
         </div>
         <div class="col-8 ps-5">
         <h4>Tangggal Dan Waktu</h4>
-<<<<<<< HEAD
           <p><i class="bi bi-calendar-event text-primary"></i> 25 Desember 2022 <br> 09-00 WIB-selesai</p>
-=======
-          <p><i class="bi bi-calendar-event text-primary me-3"></i>25 Desember 2022, 09-00 WIB-selesai</p>
->>>>>>> 1da7872f67f7305b49244ba4fca939a1c48d6d72
         </div>
        </div>
       </div>

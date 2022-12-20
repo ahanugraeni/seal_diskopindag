@@ -18,7 +18,7 @@
    <!-- Navbar -->
    <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
       <div class="container">
-        <a class="navbar-brand" href="/">
+        <a class="navbar-brand" href="/home">
           <img src="https://diskopindag.malangkota.go.id/image/site/1622779402_logo.png" alt="DISKOPINDAG MALANG">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -56,7 +56,7 @@
             <li class="nav-item">
           </ul>
           <div>
-          <a class="btn btn-primary" type="button" id="login" href="daftar">Masuk</a>
+          <a class="btn btn-primary" type="button" id="login" href="login">Masuk</a>
           <a class="btn btn-outline-primary" type="button" target="_blank" href="daftar">Daftar</a>
         </div>
         </li>

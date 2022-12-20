@@ -35,7 +35,7 @@
                   id="exampleInputPassword1">
               </div>
                 <div class="button text-center pe-5">
-                  <a href="ktp"><button type="button" class="btn btn-primary "> DAFTAR </button></a>
+                  <a href=""><button type="button" class="btn btn-primary "> DAFTAR </button></a>
                 </div>
         </form>
       </div>

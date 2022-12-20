@@ -1,6 +1,6 @@
 <header class="header home p-5" id="beranda">
-    <div class="container mb-5">
-      <h1 class="event text-center p-5 mt-5">Event Terbaru</h1>
+    <div class="container ">
+      <h1 class="event text-center p-5 ">Event Terbaru</h1>
     </div>
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
       <div class="carousel-indicators">
