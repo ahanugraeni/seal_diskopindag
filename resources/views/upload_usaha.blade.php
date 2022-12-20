@@ -13,27 +13,22 @@
 <body>
   <div class="container">
     <div class="global-container">
-      <div class="card login-form shadow  p-auto ">
+      <div class="card login-form shadow  p-auto m-3">
+        <img src="img/logo-diskopindag.png" class="logo  mx-auto d-block " alt="logo">
         <form>
-          <h1 class="card-title my-1 fs-3 fw-bold py-3">Foto e-KTP</h1>
+          <h1 class="card-title my-1 fs-3 fw-bold pt-2 mb-3">Foto Produk / Usaha</h1>
           <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label mb-5">Upload foto e-KTP anda sebagai berikut :</label>
-            <img src="img/ktp.png" alt="ktp">
+            <label for="exampleInputEmail1" class="form-label mb-2">Upload foto produk / usaha anda sebagai berikut : </label>
+            <img src="img/usaha.jpg" alt="usaha" style="width: 550px; height: 230px; >
             <p class="text-dark fs-5 fw-bolder">Perhatikan hal-hal berikut :</p>
             <ol class="text-dark pe-5 fs-6 ">
-              <li>Foto KTP harus difoto secara langsung, bukan fotokopi KTP atau lainnya</li>
-              <li>Pastikan seluruh KTP masuk ke dalam frame dan tidak terpotong</li>
-              <li>Usahakan foto dan data yang tertera pada KTP terbaca jelas (tidak blur, tidak tertutup jari, atau
-                terkena pantulan cahaya)</li>
+              <li>Foto Usaha harus difoto secara langsung</li>
+              <li>Pastikan seluruh foto usaha masuk ke dalam frame dan tidak terpotong</li>
+              <li>Usahakan foto usaha yang terlihat jelas (tidak blur, tidak tertutup jari, atau terkena pantulan cahaya)</li>
             </ol>
             <div class="button1 text-center pt-5 pe-5">
-<<<<<<< HEAD
-            <a href="/form_ktp"><button type="button" class="btn btn-primary "> UPLOAD FOTO </button></a>
-          </div>
-=======
-              <a href="foto-usaha"><button type="button" class="btn btn-primary "> UPLOAD FOTO </button></a>
+              <a href="/form_usaha"><button type="button" class="btn btn-primary "> UPLOAD FOTO </button></a>
             </div>
->>>>>>> 1da7872f67f7305b49244ba4fca939a1c48d6d72
         </form>
       </div>
     </div>

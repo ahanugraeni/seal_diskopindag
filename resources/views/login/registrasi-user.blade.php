@@ -29,6 +29,10 @@
               <label for="exampleInputEmail1" class="form-label mb-2"> NIK</label>
               <input type="text" placeholder="Masukan NIK anda" class="form-control mb-2" id="exampleInputEmail1"
                 aria-describedby="emailHelp">
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label mb-2"> Email</label>
+              <input type="text" placeholder="Masukan NIK anda" class="form-control mb-2" id="exampleInputEmail1"
+                aria-describedby="emailHelp">
               <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label mb-2">Lama Mempunyai Usaha</label>
                 <input type="text" placeholder="Berapa tahun mempunyai usaha" class="form-control"
