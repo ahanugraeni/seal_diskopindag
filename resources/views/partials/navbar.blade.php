@@ -56,15 +56,15 @@
             <li class="nav-item">
           </ul>
           <div>
-          <a class="btn btn-primary" type="button" id="login" href="login">Masuk</a>
-          <a class="btn btn-outline-primary" type="button" target="_blank" href="daftar">Daftar</a>
+          <a class="btn btn-primary me-3" type="button" id="login" href="login">Masuk</a>
+          <a class="btn btn-outline-primary ms-3" type="button" target="_blank" href="daftar">Daftar</a>
         </div>
         </li>
       </div>
       </div>
     </nav>
         <!-- dropdown akun -->
-        <div class="btn-group ps-3">
+        <!-- <div class="btn-group ps-3">
           <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
             <img src="img/akun.jpg" class="rounded-circle img-thumnail" width="30px" alt=""> 
           </button>
@@ -78,7 +78,7 @@
             <li><button class="dropdown-item" type="button"><a href="riwayat">Riwayat</a></button></li>
             <li><button class="dropdown-item" type="button"><a href="/">Logout</a></button></li>
           </ul>
-        </div>
+        </div> -->
       </li>
     </div>
     </div>

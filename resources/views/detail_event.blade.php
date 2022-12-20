@@ -45,12 +45,12 @@
        <div class="row" id="dates" >
         <div class="col-4">
           <h4>Lokasi</h4>
-          <p><i class="bi bi-geo-alt text-primary me-3"></i>Aula Diskopindag Kota Malang</p>
+          <p><i class="bi bi-geo-alt me-3"></i>Aula Diskopindag Kota Malang</p>
             <a href="daftar-event"><button type="button" id="login" class="btn">Daftar</button></a>
         </div>
         <div class="col-8 ps-5">
         <h4>Tangggal Dan Waktu</h4>
-          <p><i class="bi bi-calendar-event text-primary"></i> 25 Desember 2022 <br> 09-00 WIB-selesai</p>
+          <p><i class="bi bi-calendar-event "></i> 25 Desember 2022 <br> 09-00 WIB-selesai</p>
         </div>
        </div>
       </div>
@@ -74,10 +74,10 @@
       <p>Andre merupakan ahli di bidang ekonomi mulai dari tahun 2015 sampai saat ini, beliau memulai bisnis ditahun 2010 dan sudah memiliki 500 cabang FnB di seluruh Indonesia dengan menerapakan meet memakai GGmeet dengan efektif.</p>
       <p class="fw-bold">Folow</p>
       <p>
-        <a href=""><i class="bi bi-twitter text-primary me-3"></i></a>
-        <a href=""><i class="bi bi-linkedin text-primary me-3"></i></a>
-        <a href=""><i class="bi bi-instagram text-primary me-3"></i></a>
-        <a href=""><i class="bi bi-facebook text-primary me-3"></i></a>
+        <a href=""><i class="bi bi-twitter me-3"></i></a>
+        <a href=""><i class="bi bi-linkedin me-3"></i></a>
+        <a href=""><i class="bi bi-instagram me-3"></i></a>
+        <a href=""><i class="bi bi-facebook me-3"></i></a>
       </p>
     </div>
   </div>
@@ -93,27 +93,27 @@
       <tr>
         <td class="ps-5" width="300px">Peserta melakukan pendaftaran di website</td>
         <td class="ps-5"><h3>Validasi Peserta</h3></td>
-        <td><i class="bi bi-clock-fill text-primary"></i>07.00 - 07.30 WIB</td>
+        <td><i class="bi bi-clock-fill  me-3"></i>07.00 - 07.30 WIB</td>
       </tr>
       <tr>
         <td class="ps-5">Peserta memindai kode QR sebelum masuk ke ruangan </td>
         <td class="ps-5"><h3>Presensi Peserta</h3></td>
-        <td><i class="bi bi-clock-fill text-primary"></i>07.00 - 07.30 WIB</td>
+        <td><i class="bi bi-clock-fill me-3"></i>07.00 - 07.30 WIB</td>
       </tr>
       <tr>
         <td class="ps-5">Kegiatan dilaksanakan dan penyampaian materi pelatihan</td>
         <td class="ps-5"><h3>Pembukaan</h3></td>
-        <td><i class="bi bi-clock-fill text-primary"></i>07.00 - 07.30 WIB</td>
+        <td><i class="bi bi-clock-fill me-3"></i>07.00 - 07.30 WIB</td>
       </tr>
       <tr>
         <td class="ps-5">Kegiatan ditutup dan peserta meninggalkan ruangan</td>
         <td class="ps-5"><h3>Acara Inti</h3></td>
-        <td><i class="bi bi-clock-fill text-primary"></i>07.00 - 07.30 WIB</td>
+        <td><i class="bi bi-clock-fill me-3"></i>07.00 - 07.30 WIB</td>
       </tr>
       <tr>
         <td class="ps-5">Peserta melakukan pendaftaran di website</td>
         <td class="ps-5"><h3>Penutupan</h3></td>
-        <td><i class="bi bi-clock-fill text-primary"></i>07.00 - 07.30 WIB</td>
+        <td><i class="bi bi-clock-fill me-3"></i>07.00 - 07.30 WIB</td>
       </tr>
     </table>
   </div>

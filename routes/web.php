@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 
-Route::get('/home', function () {
+Route::get('/', function () {
     return view('home');
 });
 Route::get('/admin', function () {
@@ -53,6 +53,9 @@ Route::get('foto-usaha', function () {
 
 Route::get('profile', function () {
     return view('user-account.profile');
+});
+Route::get('history', function () {
+    return view('user-account.history');
 });
 
 Route::get('form_ktp', function () {
