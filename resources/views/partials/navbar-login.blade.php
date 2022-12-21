@@ -33,14 +33,33 @@
               <a class="nav-link " href="/">Event</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link " href="/">Kontak</a>
+              <a class="nav-link me-5" href="#kontak">Kontak</a>
             </li>
-            <li></li>
+            <li class="nav-item">
+              <a class="nav-link" href=""><i class="bi bi-bell fs-5 ms-5"></i></a>
+            </li>
           </ul>
-          <div>
-          <a class="btn btn-primary mx-3 " type="button" id="login" href="login">Masuk</a>
-          <a class="btn btn-outline-primary ms-3" type="button" target="_blank" href="daftar">Daftar</a>
+        <!-- dropdown akun -->
+          <div class="btn-group ps-3">
+          <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+            <img src="img/akun.jpg" class="rounded-circle img-thumnail" width="30px" alt=""> 
+          </button>
+          <ul class="dropdown-menu dropdown-menu-end text-center">
+            <li><img src="img/akun.jpg" class="rounded-circle" alt="akun" width="30px"></li>
+            <li></li>
+            <li><button class="dropdown-item" type="button"><a href="profile">Alex benjamin</a></button></li>
+            <li><button class="dropdown-item" type="button">benjamin@gmail.com</button></li>
+            <li><button class="dropdown-item" type="button"><a href="/">Beranda</a></button></li>
+            <li><button class="dropdown-item" type="button"><a href="profile">Profil</a></button></li>
+            <li><button class="dropdown-item" type="button"><a href="riwayat">Riwayat</a></button></li>
+            <li><button class="dropdown-item" type="button"><a href="/">Logout</a></button></li>
+          </ul>
         </div>
-      </div>
+    
+         </div>
       </div>
     </nav>
+    
+        
+<
+

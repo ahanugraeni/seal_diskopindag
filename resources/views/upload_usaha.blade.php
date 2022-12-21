@@ -19,7 +19,7 @@
           <h1 class="card-title my-1 fs-3 fw-bold pt-2 mb-3">Foto Produk / Usaha</h1>
           <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label mb-2">Upload foto produk / usaha anda sebagai berikut : </label>
-            <img src="img/usaha.jpg" alt="usaha" style="width: 550px; height: 230px; >
+            <img src="img/usaha.jpg" alt="usaha" style="width: 550px; height: 230px;">
             <p class="text-dark fs-5 fw-bolder">Perhatikan hal-hal berikut :</p>
             <ol class="text-dark pe-5 fs-6 ">
               <li>Foto Usaha harus difoto secara langsung</li>

@@ -79,3 +79,8 @@ Route::get('/beranda', function () {
 Route::get('/konfirmasi', function () {
     return view('konfirmasi');
 });
+
+Route::get('/home', function () {
+    return view('home-login');
+});
+
