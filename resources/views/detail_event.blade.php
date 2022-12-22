@@ -98,22 +98,22 @@
       <tr>
         <td class="ps-5">Peserta memindai kode QR sebelum masuk ke ruangan </td>
         <td class="ps-5"><h3>Presensi Peserta</h3></td>
-        <td><i class="bi bi-clock-fill me-3"></i>07.00 - 08.00 WIB</td>
+        <td><i class="bi bi-clock-fill me-3"></i>07.00 - 07.30 WIB</td>
       </tr>
       <tr>
         <td class="ps-5">Kegiatan dilaksanakan dan penyampaian materi pelatihan</td>
         <td class="ps-5"><h3>Pembukaan</h3></td>
-        <td><i class="bi bi-clock-fill me-3"></i>08.00 - 09.00 WIB</td>
+        <td><i class="bi bi-clock-fill me-3"></i>07.00 - 07.30 WIB</td>
       </tr>
       <tr>
         <td class="ps-5">Kegiatan ditutup dan peserta meninggalkan ruangan</td>
         <td class="ps-5"><h3>Acara Inti</h3></td>
-        <td><i class="bi bi-clock-fill me-3"></i>09.00 - 11.30 WIB</td>
+        <td><i class="bi bi-clock-fill me-3"></i>07.00 - 07.30 WIB</td>
       </tr>
       <tr>
         <td class="ps-5">Peserta melakukan pendaftaran di website</td>
         <td class="ps-5"><h3>Penutupan</h3></td>
-        <td><i class="bi bi-clock-fill me-3"></i>11.30 - 12.00 WIB</td>
+        <td><i class="bi bi-clock-fill me-3"></i>07.00 - 07.30 WIB</td>
       </tr>
     </table>
   </div>

@@ -23,7 +23,7 @@
         </div>
         <div class="col">
           <div class="card">
-            <img src="img/post.jpg" class="card-img-top" alt="...">
+            <img src="https://gmedia.net.id/upload/foto_artikel/20210705FkVktopple.jpg" class="card-img-top" alt="...">
             <div class="card-body">
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             <h5 class="card-title">Event Malang Mbois </h5>  

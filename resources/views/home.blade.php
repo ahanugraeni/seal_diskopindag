@@ -45,6 +45,7 @@
    <div class="nav-list m-5">
     <div class="row row-cols-1 row-cols-md-3 g-4">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <div class="col">
           <div class="card" style="width: 20rem; height: 25rem;">
             <img src="http://risetcdn.jatimtimes.com/images/2021/02/08/Eksplor-Skill-Pelaku-UMKM-di-Bidang-Kecantikan-Diskopindag-Kota-Malang-Gelar-Pelatihan-Make-Up281b09a8566def564.jpg" style="width: 318px; height: 286px;">
@@ -108,6 +109,34 @@
         </div>
       </div>
 
+=======
+      <div class="col">
+        <div class="card">
+          <img src="https://gmedia.net.id/upload/foto_artikel/20210705FkVktopple.jpg"class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+          </div>
+        </div>
+      </div>
+    
+      <div class="col">
+        <div class="card">
+          <img src="https://gmedia.net.id/upload/foto_artikel/20210705FkVktopple.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="https://gmedia.net.id/upload/foto_artikel/20210705FkVktopple.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+          </div>
+        </div>
+      </div>
+
+>>>>>>> parent of 1cc2298 ( merapikan file)
       <div class="col">
         <div class="card">
           <img src="https://gmedia.net.id/upload/foto_artikel/20210705FkVktopple.jpg" class="card-img-top" alt="...">
@@ -132,6 +161,9 @@
       <hr class="mt-5">
   </div>
 
+<<<<<<< HEAD
+>>>>>>> parent of 1cc2298 ( merapikan file)
+=======
 >>>>>>> parent of 1cc2298 ( merapikan file)
     <!-- Footer -->
     <footer class="footer" id="kontak">
