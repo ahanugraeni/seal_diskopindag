@@ -64,7 +64,7 @@
       </div>
     </nav>
         <!-- dropdown akun -->
-        <div class="btn-group ps-3">
+        <!-- <div class="btn-group ps-3">
           <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
             <img src="img/akun.jpg" class="rounded-circle img-thumnail" width="30px" alt=""> 
           </button>
@@ -78,8 +78,5 @@
             <li><button class="dropdown-item" type="button"><a href="riwayat">Riwayat</a></button></li>
             <li><button class="dropdown-item" type="button"><a href="/">Logout</a></button></li>
           </ul>
-        </div>
-      </li>
-    </div>
-    </div>
-  </nav>
+        </div> -->
+
