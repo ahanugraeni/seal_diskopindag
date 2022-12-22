@@ -44,6 +44,7 @@
   <h1 class=" text-center ">Galeri Event</h1>
    <div class="nav-list m-5">
     <div class="row row-cols-1 row-cols-md-3 g-4">
+<<<<<<< HEAD
     <div class="col">
           <div class="card" style="width: 20rem; height: 25rem;">
             <img src="http://risetcdn.jatimtimes.com/images/2021/02/08/Eksplor-Skill-Pelaku-UMKM-di-Bidang-Kecantikan-Diskopindag-Kota-Malang-Gelar-Pelatihan-Make-Up281b09a8566def564.jpg" style="width: 318px; height: 286px;">
@@ -80,6 +81,58 @@
 <!-- F&Q -->
 @include('partials.faq');
 
+=======
+      <div class="col">
+        <div class="card">
+          <img src="https://gmedia.net.id/upload/foto_artikel/20210705FkVktopple.jpg"class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+          </div>
+        </div>
+      </div>
+    
+      <div class="col">
+        <div class="card">
+          <img src="https://gmedia.net.id/upload/foto_artikel/20210705FkVktopple.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="https://gmedia.net.id/upload/foto_artikel/20210705FkVktopple.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img src="https://gmedia.net.id/upload/foto_artikel/20210705FkVktopple.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- F&Q -->
+  <div class="faq text-center pt-3">
+    <h4 class="mb-5">APAKAH ADA YANG INGIN DITANYAKAN ?</h4>
+    <h1 class="mb-5">Beberapa pertanyaan yang sering muncul  </h1>
+    <h4 class="mt-5">Bagaimana cara mendaftar event ? 
+      <hr class="mt-5">
+    <h4 class="mt-5">Bagaimana cara mendaftar event ? 
+      <hr class="mt-5">
+    <h4 class="mt-5">Bagaimana cara mendaftar event ? 
+      <hr class="mt-5">
+  </div>
+
+>>>>>>> parent of 1cc2298 ( merapikan file)
     <!-- Footer -->
     <footer class="footer" id="kontak">
     <div class="container">

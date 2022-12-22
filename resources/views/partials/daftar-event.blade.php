@@ -11,19 +11,10 @@
       </nav>
       <span class="target"></span>
 
-      <div class="row row-cols-1 row-cols-md-3 g-5">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col">
           <div class="card">
-            <img src="img/post.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <h5 class="card-title">Event Malang Mbois </h5>  
-          </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card" style="width: 20rem; height: 25rem;">
-            <img src="https://mcc.or.id/wp-content/uploads/2022/12/Festival-Mbois-700x426.jpg" style="width: 318px; height: 286px;">
+            <img src="https://gmedia.net.id/upload/foto_artikel/20210705FkVktopple.jpg" class="card-img-top" alt="...">
             <div class="card-body">
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             <h5 class="card-title">Event Malang Mbois </h5>  
@@ -34,26 +25,35 @@
           <div class="card">
             <img src="img/post.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-            </div>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <h5 class="card-title">Event Malang Mbois </h5>  
+          </div>
           </div>
         </div>
         <div class="col">
           <div class="card">
-            <img src="img/post.jpg" class="card-img-top" alt="...">
+            <img src="https://gmedia.net.id/upload/foto_artikel/20210705FkVktopple.jpg" class="card-img-top" alt="...">
             <div class="card-body">
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card">
-            <img src="img/post.jpg" class="card-img-top" alt="...">
+            <img src="https://gmedia.net.id/upload/foto_artikel/20210705FkVktopple.jpg" class="card-img-top" alt="...">
             <div class="card-body">
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card">
-            <img src="img/post.jpg" class="card-img-top" alt="...">
+            <img src="https://gmedia.net.id/upload/foto_artikel/20210705FkVktopple.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="https://gmedia.net.id/upload/foto_artikel/20210705FkVktopple.jpg" class="card-img-top" alt="...">
             <div class="card-body">
             </div>
           </div>

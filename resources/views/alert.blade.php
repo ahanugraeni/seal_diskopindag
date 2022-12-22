@@ -14,7 +14,7 @@
 
 <body>
 
-    <div class="container text-center pt-5">
+    <div class="container">
         <h4>Yakin Ingin mengikuti event ini?</h4>
         <button class="btn btn-primary" onclick="daftar()">Yakin</button>
     </div>

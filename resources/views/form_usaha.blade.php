@@ -8,7 +8,6 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
   <link rel="stylesheet" href="css/login.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
 </head>
 
 <body>
@@ -18,7 +17,12 @@
      <img src="img/logo-diskopindag.png" class="logo  mx-auto d-block " alt="logo">
     <form action=" " method="POST" >
         <div class="form-group row mb-4">
-     
+        <div class="mb-3">
+            <label for="nama_lengkap" class="form-label mb-2 pe-5 me-5">Nama Lengkap</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="nama_usaha" placeholder="nama usaha" name="nama usaha">
+            </div>
+        </div>
         <div class="form-group row mb-4">
         <div class="mb-3">
             <label for="Kategori" class="form-label mb-2 pe-5 me-5">Kategori Usaha</label>
