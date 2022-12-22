@@ -22,20 +22,20 @@
             <input type="text" placeholder="Masukan nama lengkap anda" class="form-control mb-2" id="exampleInputEmail1"
               aria-describedby="emailHelp">
             <div class="mb-3">
-              <label for="exampleInputtext1" class="form-label mb-2">Alamat lengkap</label>
-              <input type="text" placeholder="Masukan alamat anda" class="form-control " id="exampleInputtext1">
+              <label for="exampleInputPassword1" class="form-label mb-2">Alamat lengkap</label>
+              <input type="password" placeholder="Masukan alamat anda" class="form-control " id="exampleInputPassword1">
             </div>
             <div class="mb-3">
               <label for="exampleInputEmail1" class="form-label mb-2"> NIK</label>
               <input type="text" placeholder="Masukan NIK anda" class="form-control mb-2" id="exampleInputEmail1"
                 aria-describedby="emailHelp">
               <div class="mb-3">
-                <label for="exampleInputtext1" class="form-label mb-2">Lama Mempunyai Usaha</label>
-                <input type="text" placeholder="Berapa tahun mempunyai usaha" class="form-control "
-                  id="exampleInputtext1">
+                <label for="exampleInputPassword1" class="form-label mb-2">Lama Mempunyai Usaha</label>
+                <input type="password" placeholder="Berapa tahun mempunyai usaha" class="form-control "
+                  id="exampleInputPassword1">
               </div>
                 <div class="button text-center pe-5">
-                  <a href="/"><button type="button" class="btn btn-primary "> DAFTAR </button></a>
+                  <a href=""><button type="button" class="btn btn-primary "> DAFTAR </button></a>
                 </div>
         </form>
       </div>

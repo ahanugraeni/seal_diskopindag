@@ -30,6 +30,10 @@
 <<<<<<< HEAD
             <a href="/form_ktp"><button type="button" class="btn btn-primary "> UPLOAD FOTO </button></a>
           </div>
+=======
+              <a href="foto-usaha"><button type="button" class="btn btn-primary "> UPLOAD FOTO </button></a>
+            </div>
+>>>>>>> 1da7872f67f7305b49244ba4fca939a1c48d6d72
         </form>
       </div>
     </div>

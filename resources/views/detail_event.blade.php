@@ -35,7 +35,7 @@
   @include('partials.navbar');
 
 <!-- Detail Event -->   
-<header class="py-5">
+<header class="py-5 mt-5">
   <div class="container pt-5">
     <h1 class="text-center mt-3 mb-5" >DETAIL EVENT</h1>
     <div class="row">
@@ -66,7 +66,7 @@
   <div class="container my-5 ">
   <div class="row">
     <div class="col-4">
-      <img src="img/profle.jpg" class="rounded-circle" width="300" height="300" alt="mc">
+      <img src="img/akun.jpg" class="rounded-circle" width="300" height="300" alt="mc">
     </div>
     <div class="col-8">
       <h1>Andre jahilani M.kom</h1>
