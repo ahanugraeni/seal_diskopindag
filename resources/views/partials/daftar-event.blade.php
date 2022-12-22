@@ -16,14 +16,18 @@
           <div class="card">
             <img src="img/post.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-            </div>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <h5 class="card-title">Event Malang Mbois </h5>  
+          </div>
           </div>
         </div>
         <div class="col">
-          <div class="card">
-            <img src="img/post.jpg" class="card-img-top" alt="...">
+          <div class="card" style="width: 20rem; height: 25rem;">
+            <img src="https://mcc.or.id/wp-content/uploads/2022/12/Festival-Mbois-700x426.jpg" style="width: 318px; height: 286px;">
             <div class="card-body">
-            </div>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <h5 class="card-title">Event Malang Mbois </h5>  
+          </div>
           </div>
         </div>
         <div class="col">
