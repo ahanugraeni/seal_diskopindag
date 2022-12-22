@@ -42,12 +42,12 @@
         <!-- dropdown akun -->
           <div class="btn-group ps-3">
           <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-            <img src="img/akun.jpg" class="rounded-circle img-thumnail" width="30px" alt=""> 
+          <i class="bi bi-person-circle fs-4"></i>
           </button>
           <ul class="dropdown-menu dropdown-menu-end text-center">
-            <li><img src="img/akun.jpg" class="rounded-circle" alt="akun" width="30px"></li>
+            <li><i class="bi bi-person-circle fs-5"></i></li>
             <li></li>
-            <li><button class="dropdown-item" type="button"><a href="profile">Alex benjamin</a></button></li>
+            <li><button class="dropdown-item" type="button">Alex benjamin</button></li>
             <li><button class="dropdown-item" type="button">benjamin@gmail.com</button></li>
             <li><button class="dropdown-item" type="button"><a href="/">Beranda</a></button></li>
             <li><button class="dropdown-item" type="button"><a href="profile">Profil</a></button></li>
@@ -59,7 +59,3 @@
          </div>
       </div>
     </nav>
-    
-        
-<
-

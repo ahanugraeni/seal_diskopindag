@@ -29,7 +29,7 @@
   <p class="fs-5 text-dark md-5 text-center fw-bolder"> Tidak memiliki akun ? <a href="/daftar">Daftar sekarang</a></p>
 
   <div class="button text-center pe-5">
-  <a href="/login"><button type="button"  class="btn btn-primary "> MASUK </button></a>
+  <a href="/home"><button type="button"  class="btn btn-primary "> MASUK </button></a>
   </div>
 </form>
       </div>
