@@ -31,7 +31,7 @@
     </div>
   </div>
 <!-- navbar -->
-@include('partials.navbar');
+@include('partials.navbar-login');
 
 <!-- slider -->
 @include('partials.carousel');

@@ -32,10 +32,10 @@
     </div>
   </div>
 
-  @include('partials.navbar');
+@include('partials.navbar-login');
 
 <!-- Detail Event -->   
-<header class="py-5 mt-5">
+<header class=" mt-5">
   <div class="container pt-5">
     <h1 class="text-center mt-3 mb-5" >DETAIL EVENT</h1>
     <div class="row">
@@ -121,42 +121,6 @@
      
 </body>
 <!-- Footer -->
-<footer class="footer" id="kontak">
-    <div class="container">
-        <div class="col-lg-5">
-            <p class="footer__desc">
-              Dinas Koperasi, Perindustrian dan Perdagangan merupakan lembaga bertipe A yang menyelenggarakan urusan pemerintahan bidang koperasi, bidang perindustrian, bidang usaha mikro, dan bidang perdagangan.
-            </p>
-
-            <ul class="footer__contact">
-              <li>
-              <i class="bi bi-geo-alt-fill"></i>
-                <span>
-                Jl. Simpang Terusan Danau Sentani No.3 Malang 65138
-                </span>
-              </li>
-              <li>
-              <i class="bi bi-envelope-at-fill"></i>
-                <span>
-                diskopindag.kotamalang@gmail.com
-                </span>
-              </li>
-              <li>
-              <i class="bi bi-telephone-fill"></i>
-                <span>
-                (0341) 716546
-                </span>
-              </li>
-            </ul>
-
-            <p class="footer__copy">
-            <i class="bi bi-c-circle"></i>
-              copyright 2021 - Diskopindag Malang
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </footer>
+@include('partials.footer');
   <!-- End Footer -->
 </html>

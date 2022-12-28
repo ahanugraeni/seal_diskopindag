@@ -49,7 +49,7 @@
                 <input type="file" class="form-control" id="file" name="files">
             </div>
         </div>
-        <a href="/home"><button type="button" class="btn btn-primary "> Submit </button></a>
+        <a href="/"><button type="button" class="btn btn-primary "> Submit </button></a>
         </div>
       </form>
       </div>
