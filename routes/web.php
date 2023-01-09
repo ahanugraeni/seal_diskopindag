@@ -43,7 +43,7 @@ Route::get('detail_event', function () {
 });
 
 Route::get('usaha', function () {
-    return view('upload_usaha');
+    return view('login.upload_usaha');
 });
 
 Route::get('dashboard', function () {
@@ -64,11 +64,11 @@ Route::get('history', function () {
 });
 
 Route::get('form_ktp', function () {
-    return view('form_ktp');
+    return view('login.form_ktp');
 });
 
 Route::get('form_usaha', function () {
-    return view('form_usaha');
+    return view('login.form_usaha');
 });
 
 Route::get('alert', function () {
