@@ -84,3 +84,6 @@ Route::get('/beranda', function () {
 Route::get('/konfirmasi', function () {
     return view('konfirmasi');
 });
+Route::get('/contoh', function () {
+    return view('contoh.contoh');
+});
